@@ -4,7 +4,7 @@ Living record of defects, evaluation weaknesses and engineering gaps. Status is 
 
 Status values: `FIXED`, `OPEN`, `WONTFIX`.
 
-Last updated: 18 November 2026.
+Last updated: 19 November 2026.
 
 | ID | Area | Issue | Evidence | Severity | Status |
 | --- | --- | --- | --- | --- | --- |
@@ -74,3 +74,4 @@ The reranker is exposed as a sidebar checkbox, is on by default, and its score i
 | 2026-11-18 | ISS-001 fixed; index rebuilt; full 208-request evaluation rerun |
 | 2026-11-18 | ISS-002 fixed with numeric alignment; ISS-014 opened for entailment |
 | 2026-11-18 | ISS-003 fixed with cross-encoder reranking; evaluation rerun `69d0a79c60f02ed7` |
+| 2026-11-19 | Corrected the attribution of the paragraph-aware claim regression: `claim-16-b` and `claim-17-b` flip to CONTRADICTED, while the blocked `claim-18-a` was already wrong |
