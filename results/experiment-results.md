@@ -1,8 +1,14 @@
 # PaperScope experiment results
 
-18 November 2026 · 20 QASPER development papers · BGE-small-en-v1.5 · Qdrant · DeepSeek Flash · Top-5 · run `abe7f554cce0628b`
+18 November 2026 · 20 QASPER development papers · BGE-small-en-v1.5 · Qdrant · DeepSeek Flash · Top-5 · run `79cb7c3e96f215dd`
 
-These numbers come from a full reproduction of the archived submission on a clean Windows machine. The archived run is preserved in `published-run/`; the two differ in one of 208 cases, described under [Claim verification](#claim-verification). Setup, cost and the reproduction log are in [REPRODUCTION.md](../REPRODUCTION.md).
+These numbers come from a clean-machine reproduction of the archived submission, after the chunk-boundary fix described in [ISSUES.md](../ISSUES.md) as ISS-001. Setup, cost and the reproduction log are in [REPRODUCTION.md](../REPRODUCTION.md). Three result sets are kept side by side:
+
+| Directory | Code state | Purpose |
+| --- | --- | --- |
+| `results/` | current | Reported below |
+| `results/rerun-pre-fix/` | before ISS-001 | Shows what the stub chunks cost |
+| `results/published-run/` | original submission | Untouched reference |
 
 ## Question answering and retrieval
 
@@ -11,9 +17,9 @@ Both chunkings use the same 20 answerable questions and 4 out-of-scope questions
 | Chunking | Hit@5 | Recall@5 | Strict span match, 20 answerable | Overall strict score, 24 | Out-of-scope refusal |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Fixed size | 14/20 (70%) | 67.5% | 6/20 (30%) | 10/24 (41.7%) | 4/4 |
-| Paragraph aware | 14/20 (70%) | 65.0% | 8/20 (40%) | 12/24 (50.0%) | 4/4 |
+| Paragraph aware | 16/20 (80%) | 72.5% | 9/20 (45%) | 13/24 (54.2%) | 4/4 |
 
-Hit@5 counts a hit when the union of the top-5 chunks covers at least half of an annotated paragraph. Both chunkings hit the same number of questions and the same retrieval score within noise. The out-of-scope questions differ obviously from the paper content, so 4/4 only shows that these samples can be refused.
+Hit@5 counts a hit when the union of the top-5 chunks covers at least half of an annotated paragraph. Paragraph-aware chunking leads by two questions on Hit@5 and by 5.0 points on Recall@5, where before the chunk-boundary fix the two strategies tied at 14/20. The out-of-scope questions differ obviously from the paper content, so 4/4 only shows that these samples can be refused.
 
 ### Per-question semantic review
 
@@ -24,7 +30,7 @@ Beyond the strict score, each answer is checked against the question, the refere
 | qa-01 | correct | correct | Both name and define the two methods as in the source. |
 | qa-02 | wrong | correct | Fixed says only "news corpus"; paragraph aware answers `ilur.am` explicitly. |
 | qa-03 | correct | correct | Both list target subreddits and the frontpage. The question asks for topic, not post counts. |
-| qa-04 | correct | wrong | Fixed names logistic regression. Paragraph aware returns a generic "predicts dogmatism" answer that omits the model class. |
+| qa-04 | correct | correct | Both name logistic regression as the classifier. |
 | qa-05 | correct | correct | Both expand KBQA. |
 | qa-06 | correct | correct | Both answer relation detection from the source. |
 | qa-07 | correct | correct | Both answer the first principal component of the contextual representations at the given layer. |
@@ -43,7 +49,7 @@ Beyond the strict score, each answer is checked against the question, the refere
 | qa-20 | correct | correct | Both answer CrowdFlower and the chat-style collection process. |
 | Four out-of-scope questions | 4/4 | 4/4 | Both refuse when evidence is missing. |
 
-On answerable questions the review gives fixed-size chunking **15/20 (75%)** and paragraph-aware chunking **16/20 (80%)**. Including the refusal questions the totals are **19/24 (79.2%)** and **20/24 (83.3%)**. Both readings favour paragraph-aware chunking slightly in this question set. The gap is a single reviewed question and would need a larger test set and a second reviewer to be called stable.
+On answerable questions the review gives fixed-size chunking **15/20 (75%)** and paragraph-aware chunking **17/20 (85%)**. Including the refusal questions the totals are **19/24 (79.2%)** and **21/24 (87.5%)**. The review and the strict score agree on the direction: paragraph-aware chunking is ahead once the stub chunks are gone.
 
 ## Claim verification
 
@@ -51,23 +57,24 @@ The 20 pairs give 40 statements: 20 supported, 12 contradicted and 8 with insuff
 
 | Chunking | Prompt | Correct | Supported preserved | Non-supported accepted | Median per case |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Fixed size | Direct | 39/40 | 19/20 | 0/20 | 1.01 s |
-| Fixed size | Checked | 39/40 | 19/20 | 0/20 | 1.05 s |
-| Paragraph aware | Direct | 39/40 | 19/20 | 0/20 | 0.97 s |
-| Paragraph aware | Checked | 38/40 | 18/20 | 0/20 | 1.01 s |
+| Fixed size | Direct | 38/40 | 18/20 | 0/20 | 0.93 s |
+| Fixed size | Checked | 39/40 | 19/20 | 0/20 | 1.11 s |
+| Paragraph aware | Direct | 38/40 | 18/20 | 0/20 | 0.98 s |
+| Paragraph aware | Checked | 38/40 | 18/20 | 0/20 | 1.00 s |
 
-In the archived run both prompts tied under each chunking. In this reproduction they no longer tie under paragraph-aware chunking, because Direct accepts `claim-18-a` once and Checked still refuses it. The condition-by-condition prompt costs latency and shows no accuracy gain on this set.
+The condition-by-condition prompt costs latency and buys one case under fixed-size chunking and none under paragraph-aware chunking. No configuration accepts a non-supported statement.
 
 Every configuration marks `claim-16-a` as insufficient. The frozen label follows the abstract's statement about SimpleQuestions and WebQSP, while retrieval favours experimental passages phrased as "better or comparable". The strength of the claim differs between abstract and results section and should be recorded as an evidence-coverage and scope issue.
 
-`claim-18-a` is the case that moves between runs. The label is SUPPORTED, following the abstract's unqualified wording. The retrieved body separates variance after anisotropy correction from raw variance, and the statement omits the correction condition, so a refusal is well grounded; that is what the archived run and the Checked prompt do. When Direct accepts it, the attached quote is a sentence about the first principal component, not about a static embedding. The quote exists in the source, and validation only checks that, so the response passes. Treat the acceptance as a lenient pass, not an improvement. The main table keeps frozen labels so scoring is never adjusted after seeing output.
+`claim-18-a` is unstable rather than merely borderline. The label is SUPPORTED, following the abstract's unqualified wording, while the retrieved body separates variance after anisotropy correction from raw variance and the statement omits the correction. In this run the same statement produced four outcomes: SUPPORTED and CONTRADICTED where the citation passed, INSUFFICIENT twice where the citation check withheld the response. The case is recorded in [ISSUES.md](../ISSUES.md) as ISS-002, because a validator that only checks substring presence cannot separate these responses.
 
 ## Verifiable files
 
 - [Frozen case set with evidence coordinates](cases.json)
-- [Per-case outcome of this reproduction, 208 rows](rerun-outcomes.json)
+- [Per-case outcome of this run, 208 rows](rerun-outcomes.json)
+- [Per-case outcome before the chunk fix](rerun-pre-fix/rerun-outcomes.json)
 - [Per-case outcome and citations of the archived run](outcomes.json)
 - [Aggregate metrics, latency and token usage](metrics.json)
 - [Archived submission results](published-run/)
 
-All 208 samples received an API response. No response in this run was withheld for an unverifiable citation. The 316 retained quotes were checked against the top-5 passages of their own case. Exact-string matching and semantic review use separate criteria.
+All 208 samples received an API response. Two responses were withheld because a citation could not be verified, both on `claim-18-a`. The 311 retained quotes were checked against the top-5 passages of their own case. Exact-string matching and semantic review use separate criteria.

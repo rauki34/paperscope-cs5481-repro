@@ -23,6 +23,7 @@ ARCHIVE = DATA / "qasper-train-dev-v0.3.tgz"
 STRATEGIES = {"fixed": "Fixed size", "section": "Paragraph aware"}
 CHUNK_TOKENS = 240
 OVERLAP = 32
+MIN_CHUNK_TOKENS = 40
 PAPER_LIMIT = 20
 QUESTION_PREFIX = "Represent this sentence for searching relevant passages: "
 DEEPSEEK_URL = "https://api.deepseek.com"
@@ -90,14 +91,28 @@ def section_chunks(paragraphs, tokenizer, strategy):
             next_break = next(breaks, len(section_text))
     start = 0
     end_index = 0
+    spans = []
     while start < len(tokens):
         limit = start + CHUNK_TOKENS
         while end_index < len(ends) and ends[end_index] <= limit:
             end_index += 1
         paragraph_end = ends[end_index - 1] if end_index else 0
         stop = paragraph_end if paragraph_end > start else min(limit, len(tokens))
-        yield tokens[start][0], tokens[stop - 1][1]
+        spans.append((start, stop))
         start = stop
+    # A paragraph boundary can land one token past a chunk start, which yields a stub
+    # chunk such as "py." whose embedding outranks real passages. Merge stubs away.
+    merged = []
+    for span_start, span_stop in spans:
+        if merged and span_stop - span_start < MIN_CHUNK_TOKENS:
+            merged[-1] = (merged[-1][0], span_stop)
+        else:
+            merged.append((span_start, span_stop))
+    if len(merged) > 1 and merged[0][1] - merged[0][0] < MIN_CHUNK_TOKENS:
+        merged[1] = (merged[0][0], merged[1][1])
+        merged.pop(0)
+    for span_start, span_stop in merged:
+        yield tokens[span_start][0], tokens[span_stop - 1][1]
 
 
 @dataclass(frozen=True)

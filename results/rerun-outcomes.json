@@ -360,7 +360,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1068,
-    "completion_tokens": 70,
+    "completion_tokens": 74,
     "evidence": [
       [
         "fixed-07-01",
@@ -410,7 +410,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1363,
-    "completion_tokens": 79,
+    "completion_tokens": 74,
     "evidence": [
       [
         "fixed-07-03",
@@ -510,7 +510,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1425,
-    "completion_tokens": 154,
+    "completion_tokens": 100,
     "evidence": [
       [
         "fixed-01-01",
@@ -560,7 +560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1073,
-    "completion_tokens": 113,
+    "completion_tokens": 144,
     "evidence": [
       [
         "fixed-13-02",
@@ -610,7 +610,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1294,
-    "completion_tokens": 118,
+    "completion_tokens": 115,
     "evidence": [
       [
         "fixed-03-01",
@@ -710,7 +710,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1454,
-    "completion_tokens": 109,
+    "completion_tokens": 106,
     "evidence": [
       [
         "fixed-03-01",
@@ -760,7 +760,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1448,
-    "completion_tokens": 118,
+    "completion_tokens": 92,
     "evidence": [
       [
         "fixed-03-01",
@@ -860,7 +860,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1437,
-    "completion_tokens": 66,
+    "completion_tokens": 75,
     "evidence": [
       [
         "fixed-03-01",
@@ -1060,7 +1060,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1428,
-    "completion_tokens": 84,
+    "completion_tokens": 78,
     "evidence": [
       [
         "fixed-05-02",
@@ -1110,7 +1110,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1364,
-    "completion_tokens": 119,
+    "completion_tokens": 131,
     "evidence": [
       [
         "fixed-03-01",
@@ -1360,7 +1360,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1256,
-    "completion_tokens": 121,
+    "completion_tokens": 129,
     "evidence": [
       [
         "fixed-02-04",
@@ -1460,7 +1460,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1400,
-    "completion_tokens": 140,
+    "completion_tokens": 159,
     "evidence": [
       [
         "fixed-07-02",
@@ -1560,7 +1560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1547,
-    "completion_tokens": 173,
+    "completion_tokens": 147,
     "evidence": [
       [
         "fixed-15-01",
@@ -1660,7 +1660,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1299,
-    "completion_tokens": 131,
+    "completion_tokens": 130,
     "evidence": [
       [
         "fixed-02-03",
@@ -1760,7 +1760,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1367,
-    "completion_tokens": 215,
+    "completion_tokens": 225,
     "evidence": [
       [
         "fixed-21-01",
@@ -1810,7 +1810,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1343,
-    "completion_tokens": 142,
+    "completion_tokens": 132,
     "evidence": [
       [
         "fixed-15-01",
@@ -1910,7 +1910,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1342,
-    "completion_tokens": 99,
+    "completion_tokens": 108,
     "evidence": [
       [
         "fixed-01-01",
@@ -2360,7 +2360,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1005,
-    "completion_tokens": 59,
+    "completion_tokens": 70,
     "evidence": [
       [
         "fixed-07-01",
@@ -2560,7 +2560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1010,
-    "completion_tokens": 157,
+    "completion_tokens": 158,
     "evidence": [
       [
         "fixed-13-02",
@@ -2710,7 +2710,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1391,
-    "completion_tokens": 55,
+    "completion_tokens": 83,
     "evidence": [
       [
         "fixed-03-01",
@@ -3010,7 +3010,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1365,
-    "completion_tokens": 62,
+    "completion_tokens": 63,
     "evidence": [
       [
         "fixed-05-02",
@@ -3160,7 +3160,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1245,
-    "completion_tokens": 145,
+    "completion_tokens": 147,
     "evidence": [
       [
         "fixed-06-01",
@@ -3360,7 +3360,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1193,
-    "completion_tokens": 122,
+    "completion_tokens": 115,
     "evidence": [
       [
         "fixed-02-04",
@@ -3460,7 +3460,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1337,
-    "completion_tokens": 221,
+    "completion_tokens": 155,
     "evidence": [
       [
         "fixed-07-02",
@@ -3510,7 +3510,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1498,
-    "completion_tokens": 164,
+    "completion_tokens": 165,
     "evidence": [
       [
         "fixed-15-01",
@@ -3560,7 +3560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1484,
-    "completion_tokens": 165,
+    "completion_tokens": 157,
     "evidence": [
       [
         "fixed-15-01",
@@ -3610,7 +3610,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 918,
-    "completion_tokens": 63,
+    "completion_tokens": 57,
     "evidence": [
       [
         "fixed-02-03",
@@ -3703,14 +3703,14 @@
     "id": "claim-18-a",
     "strategy": "fixed",
     "task": "direct",
-    "correct": true,
+    "correct": false,
     "error": "",
-    "verdict": "SUPPORTED",
-    "citation_error": false,
+    "verdict": "INSUFFICIENT",
+    "citation_error": true,
     "hit": null,
     "recall": null,
     "prompt_tokens": 1304,
-    "completion_tokens": 180,
+    "completion_tokens": 255,
     "evidence": [
       [
         "fixed-21-01",
@@ -3760,7 +3760,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1304,
-    "completion_tokens": 193,
+    "completion_tokens": 179,
     "evidence": [
       [
         "fixed-21-01",
@@ -3810,7 +3810,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1280,
-    "completion_tokens": 106,
+    "completion_tokens": 102,
     "evidence": [
       [
         "fixed-15-01",
@@ -3910,7 +3910,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1279,
-    "completion_tokens": 114,
+    "completion_tokens": 106,
     "evidence": [
       [
         "fixed-01-01",
@@ -3960,7 +3960,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1462,
-    "completion_tokens": 14,
+    "completion_tokens": 70,
     "evidence": [
       [
         "fixed-17-02",
@@ -4110,7 +4110,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1250,
-    "completion_tokens": 278,
+    "completion_tokens": 212,
     "evidence": [
       [
         "fixed-03-01",
@@ -4260,7 +4260,7 @@
     "hit": true,
     "recall": 0.5,
     "prompt_tokens": 1410,
-    "completion_tokens": 141,
+    "completion_tokens": 57,
     "evidence": [
       [
         "fixed-15-01",
@@ -4310,7 +4310,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1364,
-    "completion_tokens": 71,
+    "completion_tokens": 156,
     "evidence": [
       [
         "fixed-02-04",
@@ -4410,7 +4410,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1092,
-    "completion_tokens": 80,
+    "completion_tokens": 84,
     "evidence": [
       [
         "fixed-13-01",
@@ -4460,7 +4460,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1085,
-    "completion_tokens": 252,
+    "completion_tokens": 257,
     "evidence": [
       [
         "fixed-12-01",
@@ -4660,7 +4660,7 @@
     "hit": false,
     "recall": 0.0,
     "prompt_tokens": 1075,
-    "completion_tokens": 214,
+    "completion_tokens": 218,
     "evidence": [
       [
         "fixed-02-03",
@@ -4710,7 +4710,7 @@
     "hit": false,
     "recall": 0.0,
     "prompt_tokens": 1203,
-    "completion_tokens": 119,
+    "completion_tokens": 158,
     "evidence": [
       [
         "fixed-02-05",
@@ -4810,7 +4810,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1183,
-    "completion_tokens": 190,
+    "completion_tokens": 182,
     "evidence": [
       [
         "fixed-09-01",
@@ -4860,7 +4860,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1373,
-    "completion_tokens": 198,
+    "completion_tokens": 207,
     "evidence": [
       [
         "fixed-11-01",
@@ -4910,7 +4910,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1343,
-    "completion_tokens": 241,
+    "completion_tokens": 226,
     "evidence": [
       [
         "fixed-06-01",
@@ -4960,7 +4960,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1259,
-    "completion_tokens": 281,
+    "completion_tokens": 289,
     "evidence": [
       [
         "fixed-06-01",
@@ -5410,7 +5410,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1088,
-    "completion_tokens": 74,
+    "completion_tokens": 71,
     "evidence": [
       [
         "section-07-01",
@@ -5560,7 +5560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1063,
-    "completion_tokens": 70,
+    "completion_tokens": 71,
     "evidence": [
       [
         "section-07-01",
@@ -5610,7 +5610,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1169,
-    "completion_tokens": 74,
+    "completion_tokens": 79,
     "evidence": [
       [
         "section-07-03",
@@ -5660,7 +5660,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1198,
-    "completion_tokens": 85,
+    "completion_tokens": 79,
     "evidence": [
       [
         "section-07-01",
@@ -5760,7 +5760,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1137,
-    "completion_tokens": 115,
+    "completion_tokens": 66,
     "evidence": [
       [
         "section-02-01",
@@ -5860,7 +5860,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1227,
-    "completion_tokens": 113,
+    "completion_tokens": 117,
     "evidence": [
       [
         "section-03-01",
@@ -5909,8 +5909,8 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1376,
-    "completion_tokens": 106,
+    "prompt_tokens": 1428,
+    "completion_tokens": 107,
     "evidence": [
       [
         "section-03-01",
@@ -5941,11 +5941,11 @@
         0.6354
       ],
       [
-        "section-09-02",
+        "section-09-01",
         9,
-        149,
-        1206,
-        0.6306
+        0,
+        1335,
+        0.6325
       ]
     ]
   },
@@ -5959,8 +5959,8 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1376,
-    "completion_tokens": 79,
+    "prompt_tokens": 1428,
+    "completion_tokens": 105,
     "evidence": [
       [
         "section-03-01",
@@ -5991,11 +5991,11 @@
         0.6395
       ],
       [
-        "section-09-02",
+        "section-09-01",
         9,
-        149,
-        1206,
-        0.6306
+        0,
+        1335,
+        0.6269
       ]
     ]
   },
@@ -6060,7 +6060,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1172,
-    "completion_tokens": 73,
+    "completion_tokens": 75,
     "evidence": [
       [
         "section-03-01",
@@ -6110,7 +6110,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1260,
-    "completion_tokens": 66,
+    "completion_tokens": 69,
     "evidence": [
       [
         "section-03-01",
@@ -6160,7 +6160,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1260,
-    "completion_tokens": 74,
+    "completion_tokens": 68,
     "evidence": [
       [
         "section-03-01",
@@ -6360,7 +6360,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1198,
-    "completion_tokens": 151,
+    "completion_tokens": 165,
     "evidence": [
       [
         "section-06-01",
@@ -6460,7 +6460,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1157,
-    "completion_tokens": 74,
+    "completion_tokens": 87,
     "evidence": [
       [
         "section-08-01",
@@ -6510,7 +6510,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1254,
-    "completion_tokens": 127,
+    "completion_tokens": 112,
     "evidence": [
       [
         "section-01-01",
@@ -6560,7 +6560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1253,
-    "completion_tokens": 125,
+    "completion_tokens": 186,
     "evidence": [
       [
         "section-01-01",
@@ -6660,7 +6660,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1223,
-    "completion_tokens": 130,
+    "completion_tokens": 142,
     "evidence": [
       [
         "section-07-02",
@@ -6710,7 +6710,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1173,
-    "completion_tokens": 166,
+    "completion_tokens": 178,
     "evidence": [
       [
         "section-15-01",
@@ -6760,7 +6760,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1144,
-    "completion_tokens": 164,
+    "completion_tokens": 173,
     "evidence": [
       [
         "section-15-01",
@@ -6810,7 +6810,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1007,
-    "completion_tokens": 67,
+    "completion_tokens": 63,
     "evidence": [
       [
         "section-02-03",
@@ -6860,7 +6860,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1190,
-    "completion_tokens": 101,
+    "completion_tokens": 103,
     "evidence": [
       [
         "section-02-03",
@@ -6905,33 +6905,19 @@
     "task": "checked",
     "correct": false,
     "error": "",
-    "verdict": "INSUFFICIENT",
+    "verdict": "CONTRADICTED",
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1299,
-    "completion_tokens": 178,
+    "prompt_tokens": 1465,
+    "completion_tokens": 151,
     "evidence": [
       [
         "section-21-02",
         21,
         829,
-        1873,
-        0.8968
-      ],
-      [
-        "section-02-04",
-        2,
-        2651,
-        3756,
-        0.8766
-      ],
-      [
-        "section-21-03",
-        21,
-        1873,
         1876,
-        0.8707
+        0.9043
       ],
       [
         "section-22-02",
@@ -6941,11 +6927,25 @@
         0.8702
       ],
       [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8644
+      ],
+      [
         "section-21-01",
         21,
         0,
         827,
         0.8538
+      ],
+      [
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8468
       ]
     ]
   },
@@ -6959,22 +6959,15 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1299,
-    "completion_tokens": 130,
+    "prompt_tokens": 1465,
+    "completion_tokens": 209,
     "evidence": [
       [
         "section-21-02",
         21,
         829,
-        1873,
-        0.8877
-      ],
-      [
-        "section-02-04",
-        2,
-        2651,
-        3756,
-        0.875
+        1876,
+        0.893
       ],
       [
         "section-22-02",
@@ -6984,6 +6977,13 @@
         0.8635
       ],
       [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8629
+      ],
+      [
         "section-21-01",
         21,
         0,
@@ -6991,11 +6991,11 @@
         0.8512
       ],
       [
-        "section-21-03",
-        21,
-        1873,
-        1876,
-        0.8498
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8448
       ]
     ]
   },
@@ -7010,7 +7010,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1198,
-    "completion_tokens": 131,
+    "completion_tokens": 132,
     "evidence": [
       [
         "section-15-01",
@@ -7110,7 +7110,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1007,
-    "completion_tokens": 58,
+    "completion_tokens": 76,
     "evidence": [
       [
         "section-01-01",
@@ -7160,7 +7160,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1253,
-    "completion_tokens": 129,
+    "completion_tokens": 90,
     "evidence": [
       [
         "section-04-01",
@@ -7710,7 +7710,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1144,
-    "completion_tokens": 151,
+    "completion_tokens": 154,
     "evidence": [
       [
         "section-01-01",
@@ -7760,7 +7760,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1074,
-    "completion_tokens": 14,
+    "completion_tokens": 65,
     "evidence": [
       [
         "section-02-01",
@@ -7909,7 +7909,7 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1313,
+    "prompt_tokens": 1365,
     "completion_tokens": 83,
     "evidence": [
       [
@@ -7941,11 +7941,11 @@
         0.6354
       ],
       [
-        "section-09-02",
+        "section-09-01",
         9,
-        149,
-        1206,
-        0.6306
+        0,
+        1335,
+        0.6325
       ]
     ]
   },
@@ -7959,7 +7959,7 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1313,
+    "prompt_tokens": 1365,
     "completion_tokens": 91,
     "evidence": [
       [
@@ -7991,11 +7991,11 @@
         0.6395
       ],
       [
-        "section-09-02",
+        "section-09-01",
         9,
-        149,
-        1206,
-        0.6306
+        0,
+        1335,
+        0.6269
       ]
     ]
   },
@@ -8060,7 +8060,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1109,
-    "completion_tokens": 64,
+    "completion_tokens": 61,
     "evidence": [
       [
         "section-03-01",
@@ -8110,7 +8110,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1197,
-    "completion_tokens": 63,
+    "completion_tokens": 62,
     "evidence": [
       [
         "section-03-01",
@@ -8360,7 +8360,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1135,
-    "completion_tokens": 143,
+    "completion_tokens": 95,
     "evidence": [
       [
         "section-06-01",
@@ -8510,7 +8510,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1191,
-    "completion_tokens": 166,
+    "completion_tokens": 102,
     "evidence": [
       [
         "section-01-01",
@@ -8560,7 +8560,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1190,
-    "completion_tokens": 118,
+    "completion_tokens": 187,
     "evidence": [
       [
         "section-01-01",
@@ -8710,7 +8710,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1110,
-    "completion_tokens": 176,
+    "completion_tokens": 173,
     "evidence": [
       [
         "section-15-01",
@@ -8860,7 +8860,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1127,
-    "completion_tokens": 131,
+    "completion_tokens": 132,
     "evidence": [
       [
         "section-02-03",
@@ -8903,35 +8903,21 @@
     "id": "claim-18-a",
     "strategy": "section",
     "task": "direct",
-    "correct": true,
+    "correct": false,
     "error": "",
-    "verdict": "SUPPORTED",
-    "citation_error": false,
+    "verdict": "INSUFFICIENT",
+    "citation_error": true,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1236,
-    "completion_tokens": 198,
+    "prompt_tokens": 1402,
+    "completion_tokens": 254,
     "evidence": [
       [
         "section-21-02",
         21,
         829,
-        1873,
-        0.8968
-      ],
-      [
-        "section-02-04",
-        2,
-        2651,
-        3756,
-        0.8766
-      ],
-      [
-        "section-21-03",
-        21,
-        1873,
         1876,
-        0.8707
+        0.9043
       ],
       [
         "section-22-02",
@@ -8941,11 +8927,25 @@
         0.8702
       ],
       [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8644
+      ],
+      [
         "section-21-01",
         21,
         0,
         827,
         0.8538
+      ],
+      [
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8468
       ]
     ]
   },
@@ -8959,22 +8959,15 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1236,
-    "completion_tokens": 192,
+    "prompt_tokens": 1402,
+    "completion_tokens": 195,
     "evidence": [
       [
         "section-21-02",
         21,
         829,
-        1873,
-        0.8877
-      ],
-      [
-        "section-02-04",
-        2,
-        2651,
-        3756,
-        0.875
+        1876,
+        0.893
       ],
       [
         "section-22-02",
@@ -8984,6 +8977,13 @@
         0.8635
       ],
       [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8629
+      ],
+      [
         "section-21-01",
         21,
         0,
@@ -8991,11 +8991,11 @@
         0.8512
       ],
       [
-        "section-21-03",
-        21,
-        1873,
-        1876,
-        0.8498
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8448
       ]
     ]
   },
@@ -9010,7 +9010,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 1135,
-    "completion_tokens": 158,
+    "completion_tokens": 107,
     "evidence": [
       [
         "section-15-01",
@@ -9110,7 +9110,7 @@
     "hit": null,
     "recall": null,
     "prompt_tokens": 944,
-    "completion_tokens": 62,
+    "completion_tokens": 99,
     "evidence": [
       [
         "section-01-01",
@@ -9210,7 +9210,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1107,
-    "completion_tokens": 269,
+    "completion_tokens": 267,
     "evidence": [
       [
         "section-03-01",
@@ -9310,7 +9310,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1027,
-    "completion_tokens": 194,
+    "completion_tokens": 189,
     "evidence": [
       [
         "section-03-01",
@@ -9353,14 +9353,14 @@
     "id": "qa-04",
     "strategy": "section",
     "task": "qa",
-    "correct": false,
+    "correct": true,
     "error": "",
     "verdict": "",
     "citation_error": false,
-    "hit": false,
-    "recall": 0.0,
-    "prompt_tokens": 1020,
-    "completion_tokens": 84,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1227,
+    "completion_tokens": 160,
     "evidence": [
       [
         "section-05-01",
@@ -9370,18 +9370,11 @@
         0.6272
       ],
       [
-        "section-09-02",
-        9,
-        149,
-        1206,
-        0.6191
-      ],
-      [
         "section-09-01",
         9,
         0,
-        147,
-        0.6183
+        1335,
+        0.6097
       ],
       [
         "section-02-03",
@@ -9396,6 +9389,13 @@
         1701,
         2304,
         0.5846
+      ],
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.584
       ]
     ]
   },
@@ -9410,7 +9410,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 977,
-    "completion_tokens": 50,
+    "completion_tokens": 49,
     "evidence": [
       [
         "section-15-01",
@@ -9460,7 +9460,7 @@
     "hit": true,
     "recall": 0.5,
     "prompt_tokens": 979,
-    "completion_tokens": 123,
+    "completion_tokens": 57,
     "evidence": [
       [
         "section-15-01",
@@ -9509,22 +9509,22 @@
     "citation_error": false,
     "hit": true,
     "recall": 1.0,
-    "prompt_tokens": 1050,
+    "prompt_tokens": 1145,
     "completion_tokens": 71,
     "evidence": [
-      [
-        "section-21-03",
-        21,
-        1873,
-        1876,
-        0.811
-      ],
       [
         "section-21-01",
         21,
         0,
         827,
         0.8013
+      ],
+      [
+        "section-21-02",
+        21,
+        829,
+        1876,
+        0.7913
       ],
       [
         "section-23-01",
@@ -9534,18 +9534,18 @@
         0.7896
       ],
       [
-        "section-21-02",
-        21,
-        829,
-        1873,
-        0.7874
-      ],
-      [
         "section-22-01",
         22,
         0,
         636,
         0.7844
+      ],
+      [
+        "section-11-02",
+        11,
+        488,
+        998,
+        0.7722
       ]
     ]
   },
@@ -9559,7 +9559,7 @@
     "citation_error": false,
     "hit": true,
     "recall": 1.0,
-    "prompt_tokens": 780,
+    "prompt_tokens": 887,
     "completion_tokens": 85,
     "evidence": [
       [
@@ -9584,18 +9584,18 @@
         0.6126
       ],
       [
-        "section-06-02",
-        6,
-        961,
-        1101,
-        0.6073
-      ],
-      [
         "section-14-01",
         14,
         0,
         1089,
         0.6036
+      ],
+      [
+        "section-03-03",
+        3,
+        1185,
+        1862,
+        0.5884
       ]
     ]
   },
@@ -9660,7 +9660,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 995,
-    "completion_tokens": 217,
+    "completion_tokens": 232,
     "evidence": [
       [
         "section-08-01",
@@ -9810,7 +9810,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1204,
-    "completion_tokens": 70,
+    "completion_tokens": 57,
     "evidence": [
       [
         "section-02-01",
@@ -9860,7 +9860,7 @@
     "hit": false,
     "recall": 0.0,
     "prompt_tokens": 898,
-    "completion_tokens": 228,
+    "completion_tokens": 334,
     "evidence": [
       [
         "section-02-03",
@@ -9907,10 +9907,10 @@
     "error": "",
     "verdict": "",
     "citation_error": false,
-    "hit": false,
-    "recall": 0.0,
-    "prompt_tokens": 841,
-    "completion_tokens": 140,
+    "hit": true,
+    "recall": 0.5,
+    "prompt_tokens": 929,
+    "completion_tokens": 152,
     "evidence": [
       [
         "section-02-01",
@@ -9918,13 +9918,6 @@
         0,
         432,
         0.7725
-      ],
-      [
-        "section-02-07",
-        2,
-        4965,
-        5199,
-        0.7653
       ],
       [
         "section-08-01",
@@ -9946,6 +9939,13 @@
         0,
         813,
         0.7566
+      ],
+      [
+        "section-12-03",
+        12,
+        1586,
+        2216,
+        0.7538
       ]
     ]
   },
@@ -10010,7 +10010,7 @@
     "hit": true,
     "recall": 1.0,
     "prompt_tokens": 1173,
-    "completion_tokens": 229,
+    "completion_tokens": 226,
     "evidence": [
       [
         "section-09-01",
@@ -10110,7 +10110,7 @@
     "hit": false,
     "recall": 0.0,
     "prompt_tokens": 1190,
-    "completion_tokens": 211,
+    "completion_tokens": 231,
     "evidence": [
       [
         "section-06-01",
@@ -10159,7 +10159,7 @@
     "citation_error": false,
     "hit": true,
     "recall": 1.0,
-    "prompt_tokens": 1254,
+    "prompt_tokens": 1292,
     "completion_tokens": 280,
     "evidence": [
       [
@@ -10187,8 +10187,8 @@
         "section-05-01",
         5,
         0,
-        1143,
-        0.6432
+        1344,
+        0.6354
       ],
       [
         "section-02-01",
@@ -10259,7 +10259,7 @@
     "citation_error": false,
     "hit": null,
     "recall": null,
-    "prompt_tokens": 1280,
+    "prompt_tokens": 1333,
     "completion_tokens": 5,
     "evidence": [
       [
@@ -10284,11 +10284,11 @@
         0.467
       ],
       [
-        "section-09-02",
+        "section-09-01",
         9,
-        149,
-        1206,
-        0.4642
+        0,
+        1335,
+        0.4557
       ],
       [
         "section-04-02",

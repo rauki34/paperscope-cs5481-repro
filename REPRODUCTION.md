@@ -2,6 +2,8 @@
 
 Reproduction of PaperScope (CS5481 Topic 5, knowledge-base QA with verifiable citations) on a clean Windows machine, 18 November 2026.
 
+This document records the state of the code as cloned, before any fix. The numbers below therefore describe the pre-fix chunking. The only code change since then is the stub-chunk fix tracked as ISS-001 in [ISSUES.md](ISSUES.md); the benchmark was rerun afterwards and the current numbers live in [results/experiment-results.md](results/experiment-results.md), with the pre-fix run archived in `results/rerun-pre-fix/`.
+
 ## Verdict
 
 The published run reproduces. 208 of 208 benchmark requests returned, no API errors and no citation-validation failures, and 207 of 208 per-case judgements match the archived results byte for byte. One claim case flips because it sits on a genuine decision boundary in the source paper; see [The single deviation](#the-single-deviation).

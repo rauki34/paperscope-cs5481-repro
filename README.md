@@ -30,14 +30,14 @@ Run `python run_deepseek.py --evaluate` with an API key to reproduce the benchma
 
 | Measure | Fixed size | Paragraph aware |
 | --- | ---: | ---: |
-| Evidence Hit@5 on 20 answerable questions | 14/20 | 14/20 |
-| Strict answer-span match on 20 questions | 6/20 | 8/20 |
-| Evidence-based review of the same 20 answers | 15/20 | 16/20 |
+| Evidence Hit@5 on 20 answerable questions | 14/20 | 16/20 |
+| Strict answer-span match on 20 questions | 6/20 | 9/20 |
+| Evidence-based review of the same 20 answers | 15/20 | 17/20 |
 | Correct refusal on four out-of-scope questions | 4/4 | 4/4 |
 
-The direct and condition-by-condition statement checks tie under fixed-size chunking; under paragraph-aware chunking the direct prompt scores one case higher. See the report for examples and scoring limitations.
+The direct and condition-by-condition statement checks score 38/40 and 39/40 under fixed-size chunking, and 38/40 for both prompts under paragraph-aware chunking. See the report for examples and scoring limitations.
 
-A clean-machine reproduction on 18 November 2026 matched 207 of 208 per-case judgements and reproduced the published token totals exactly; one borderline claim case flips. Setup, timings, cost and the deviation analysis are in [REPRODUCTION.md](REPRODUCTION.md). The archived submission results are kept unchanged in `results/published-run/`, and `results/rerun-outcomes.json` records the reproduction case by case.
+A clean-machine reproduction on 18 November 2026 matched 207 of 208 per-case judgements and reproduced the published token totals exactly; one borderline claim case flips. Setup, timings, cost and the deviation analysis are in [REPRODUCTION.md](REPRODUCTION.md). The archived submission results are kept unchanged in `results/published-run/`, and `results/rerun-outcomes.json` records the current run case by case. Known defects and evaluation gaps are tracked in [ISSUES.md](ISSUES.md); ISS-001 (stub chunks in paragraph-aware chunking) is fixed and the benchmark was rerun after the change.
 
 ## Collaboration
 
