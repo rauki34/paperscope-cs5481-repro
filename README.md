@@ -26,7 +26,7 @@ Select **pioNER: Datasets and Baselines for Armenian Named Entity Recognition** 
 
 ## Evaluation
 
-Run `python run_deepseek.py --evaluate` with an API key to reproduce the benchmark. It makes 208 model requests on a fresh run and caches completed cases locally. Published results cover 20 answerable questions, four out-of-scope refusal questions, and 20 pairs of statements. [Metrics](results/metrics.json), [per-case outcomes](results/outcomes.json), and the [experiment discussion](results/实验结果.md) report the observed run. A local rerun writes the full retrieved passages to the ignored `results/runs.json` file.
+Run `python run_deepseek.py --evaluate` with an API key to reproduce the benchmark. It makes 208 model requests on a fresh run and caches completed cases locally. Published results cover 20 answerable questions, four out-of-scope refusal questions, and 20 pairs of statements. [Metrics](results/metrics.json), [per-case outcomes](results/outcomes.json), and the [experiment discussion](results/experiment-results.md) report the observed run. A local rerun writes the full retrieved passages to the ignored `results/runs.json` file.
 
 | Measure | Fixed size | Paragraph aware |
 | --- | ---: | ---: |
@@ -35,7 +35,9 @@ Run `python run_deepseek.py --evaluate` with an API key to reproduce the benchma
 | Evidence-based review of the same 20 answers | 15/20 | 16/20 |
 | Correct refusal on four out-of-scope questions | 4/4 | 4/4 |
 
-For each chunking strategy, the direct and condition-by-condition statement checks achieved the same accuracy on this dataset. See the report for examples and scoring limitations.
+The direct and condition-by-condition statement checks tie under fixed-size chunking; under paragraph-aware chunking the direct prompt scores one case higher. See the report for examples and scoring limitations.
+
+A clean-machine reproduction on 18 November 2026 matched 207 of 208 per-case judgements and reproduced the published token totals exactly; one borderline claim case flips. Setup, timings, cost and the deviation analysis are in [REPRODUCTION.md](REPRODUCTION.md). The archived submission results are kept unchanged in `results/published-run/`, and `results/rerun-outcomes.json` records the reproduction case by case.
 
 ## Collaboration
 
