@@ -12,8 +12,8 @@ from time import perf_counter
 
 from claim_cases import PAIRS
 from paperscope import (
-    DEEPSEEK_MODEL, ROOT, STRATEGIES, PaperScope, answer_with_api, load_papers,
-    make_api_client, qasper_corpus,
+    DEEPSEEK_MODEL, RERANK_ON, ROOT, STRATEGIES, PaperScope, answer_with_api,
+    load_papers, make_api_client, qasper_corpus,
 )
 
 RESULTS = ROOT / "results"
@@ -215,7 +215,7 @@ def summarize(rows, fingerprint):
             })
         metrics[label] = entries
     return {"model": os.getenv("PAPERSCOPE_MODEL", DEEPSEEK_MODEL), "top_k": TOP_K,
-            "fingerprint": fingerprint, "metrics": metrics}
+            "rerank": RERANK_ON, "fingerprint": fingerprint, "metrics": metrics}
 
 
 def run():
@@ -225,7 +225,8 @@ def run():
     claims = build_claim_cases(papers)
     cases = {"qa": qa, "claims": claims}
     save_json(RESULTS / "cases.json", cases)
-    config = json.dumps([cases, os.getenv("PAPERSCOPE_MODEL", DEEPSEEK_MODEL), TOP_K], sort_keys=True)
+    config = json.dumps([cases, os.getenv("PAPERSCOPE_MODEL", DEEPSEEK_MODEL), TOP_K,
+                         RERANK_ON], sort_keys=True)
     digest = hashlib.sha256(config.encode("utf-8"))
     for name in ("paperscope.py", "evaluate.py"):
         digest.update((ROOT / name).read_bytes())

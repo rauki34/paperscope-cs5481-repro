@@ -24,6 +24,9 @@ STRATEGIES = {"fixed": "Fixed size", "section": "Paragraph aware"}
 CHUNK_TOKENS = 240
 OVERLAP = 32
 MIN_CHUNK_TOKENS = 40
+RERANK_MODEL = "ms-marco-MiniLM-L6-v2"
+RERANK_CANDIDATES = 20
+RERANK_ON = True
 PAPER_LIMIT = 20
 QUESTION_PREFIX = "Represent this sentence for searching relevant passages: "
 DEEPSEEK_URL = "https://api.deepseek.com"
@@ -134,6 +137,7 @@ class PaperScope:
         )
         self.lock = Lock()
         self.local_qa = None
+        self.reranker = None
         self.index = QdrantClient(":memory:")
         self._build_index()
 
@@ -183,7 +187,8 @@ class PaperScope:
                 ],
             )
 
-    def retrieve(self, paper_id, question, strategy, top_k=5):
+    def retrieve(self, paper_id, question, strategy, top_k=5, rerank=None):
+        rerank = RERANK_ON if rerank is None else rerank
         with self.lock:
             vector = self.encoder.encode(
                 QUESTION_PREFIX + question, normalize_embeddings=True
@@ -196,10 +201,28 @@ class PaperScope:
                         key="paper_id", match=models.MatchValue(value=paper_id)
                     )
                 ]),
-                limit=top_k,
+                limit=RERANK_CANDIDATES if rerank else top_k,
                 with_payload=True,
             ).points
-        return [dict(hit.payload, similarity=float(hit.score)) for hit in hits]
+        passages = [dict(hit.payload, similarity=float(hit.score)) for hit in hits]
+        if rerank and len(passages) > top_k:
+            return self.rerank_hits(question, passages, top_k)
+        return passages[:top_k]
+
+    def rerank_hits(self, question, passages, top_k=5):
+        """Reorder vector candidates with a cross-encoder before truncating."""
+        from sentence_transformers import CrossEncoder
+
+        with self.lock:
+            if self.reranker is None:
+                self.reranker = CrossEncoder(
+                    str(DATA / RERANK_MODEL), local_files_only=True, max_length=512
+                )
+            model = self.reranker
+        pairs = [(question, f"{item['section']}\n{item['text']}") for item in passages]
+        scores = model.predict(pairs, batch_size=16, show_progress_bar=False)
+        ranked = sorted(zip(passages, scores), key=lambda pair: -float(pair[1]))[:top_k]
+        return [dict(item, rerank_score=round(float(score), 4)) for item, score in ranked]
 
     def answer_locally(self, question, evidence):
         import torch
@@ -313,7 +336,8 @@ def answer_with_api(query, evidence, task="qa", client=None):
             token_count[1] += result.usage.completion_tokens
         try:
             return validate_api_answer(
-                result.choices[0].message.content or "", evidence, task, tuple(token_count)
+                result.choices[0].message.content or "", evidence, task,
+                tuple(token_count), query,
             )
         except ValueError:
             if result.choices[0].message.content and result.choices[0].finish_reason != "length":
@@ -321,7 +345,15 @@ def answer_with_api(query, evidence, task="qa", client=None):
     raise ValueError("The API returned no complete JSON answer.")
 
 
-def validate_api_answer(raw, evidence, task="qa", usage=(0, 0)):
+def quoted_numbers(text):
+    """Numeric values that stand alone, so tokens such as Flickr30K are ignored."""
+    return {
+        match.replace(",", "")
+        for match in re.findall(r"(?<![A-Za-z])\d[\d,]*(?:\.\d+)?(?![A-Za-z])", text)
+    }
+
+
+def validate_api_answer(raw, evidence, task="qa", usage=(0, 0), query=""):
     texts = {item["id"]: " ".join(item["text"].split()) for item in evidence}
     raw = raw.strip().removeprefix("```json").removesuffix("```").strip()
     try:
@@ -348,6 +380,17 @@ def validate_api_answer(raw, evidence, task="qa", usage=(0, 0)):
             break
         lines.append((text.strip(), source_id))
         citations.append(quote.strip())
+    # A citation has to carry the numbers it is used to justify. Answers assert values;
+    # a SUPPORTED verdict asserts the statement's values. CONTRADICTED is exempt because
+    # its quote carries the conflicting value instead of the claimed one.
+    if not citation_error and task == "qa":
+        for text, quote in zip(lines, citations):
+            if quoted_numbers(text[0]) - quoted_numbers(quote):
+                citation_error = True
+                break
+    if not citation_error and verdict == "SUPPORTED":
+        if quoted_numbers(query) - quoted_numbers(" ".join(citations)):
+            citation_error = True
     if citation_error:
         return Answer([], "LLM API", verdict="INSUFFICIENT" if verdict else "",
                       prompt_tokens=usage[0], completion_tokens=usage[1], citation_error=True)

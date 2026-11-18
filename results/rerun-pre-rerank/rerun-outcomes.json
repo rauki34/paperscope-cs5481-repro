@@ -1,0 +1,10402 @@
+[
+  {
+    "id": "claim-01-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1216,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7666
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.712
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6963
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6844
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6758
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1393,
+    "completion_tokens": 68,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7519
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.7125
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6995
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6805
+      ],
+      [
+        "fixed-12-02",
+        12,
+        979,
+        1891,
+        0.6785
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1216,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.7624
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7567
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.7311
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6888
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6795
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1216,
+    "completion_tokens": 64,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.7673
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.764
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.7332
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.7104
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.696
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1313,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7769
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.726
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.691
+      ],
+      [
+        "fixed-02-02",
+        2,
+        1094,
+        2214,
+        0.6792
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        675,
+        0.6644
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1235,
+    "completion_tokens": 76,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.736
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7098
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6889
+      ],
+      [
+        "fixed-02-02",
+        2,
+        1094,
+        2214,
+        0.6718
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        253,
+        0.6686
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1220,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.6904
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.665
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6324
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6113
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6102
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1068,
+    "completion_tokens": 74,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.6946
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6702
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.646
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6213
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        253,
+        0.6165
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1363,
+    "completion_tokens": 74,
+    "evidence": [
+      [
+        "fixed-07-03",
+        7,
+        1845,
+        2193,
+        0.658
+      ],
+      [
+        "fixed-07-02",
+        7,
+        947,
+        1927,
+        0.6466
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.6341
+      ],
+      [
+        "fixed-12-02",
+        12,
+        979,
+        1891,
+        0.604
+      ],
+      [
+        "fixed-12-03",
+        12,
+        1726,
+        2372,
+        0.6014
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1297,
+    "completion_tokens": 79,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7079
+      ],
+      [
+        "fixed-07-02",
+        7,
+        947,
+        1927,
+        0.6758
+      ],
+      [
+        "fixed-12-02",
+        12,
+        979,
+        1891,
+        0.6606
+      ],
+      [
+        "fixed-07-03",
+        7,
+        1845,
+        2193,
+        0.6549
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6412
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1425,
+    "completion_tokens": 100,
+    "evidence": [
+      [
+        "fixed-01-01",
+        1,
+        0,
+        675,
+        0.8598
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.8363
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1240,
+        0.8254
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.8162
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        1235,
+        0.8022
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1073,
+    "completion_tokens": 144,
+    "evidence": [
+      [
+        "fixed-13-02",
+        13,
+        1061,
+        1350,
+        0.6595
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6567
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        1086,
+        0.6369
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6283
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6279
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1294,
+    "completion_tokens": 115,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.8568
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.8155
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.8111
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.8102
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.8101
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1294,
+    "completion_tokens": 115,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.8467
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.7932
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.7928
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.7922
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.7915
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1454,
+    "completion_tokens": 106,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7148
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6464
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6458
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.641
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        1046,
+        0.6335
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1448,
+    "completion_tokens": 92,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7068
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6444
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.644
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6432
+      ],
+      [
+        "fixed-02-02",
+        2,
+        917,
+        2041,
+        0.6365
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1440,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7165
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.674
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6721
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6708
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6585
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1437,
+    "completion_tokens": 75,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7195
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6812
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6767
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6747
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.6673
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1442,
+    "completion_tokens": 69,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.6877
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.632
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.619
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6115
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6111
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1442,
+    "completion_tokens": 73,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.6872
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6267
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6177
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6156
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6101
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1428,
+    "completion_tokens": 68,
+    "evidence": [
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.7126
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.639
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.5926
+      ],
+      [
+        "fixed-11-02",
+        11,
+        1060,
+        2184,
+        0.57
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1126,
+        0.5644
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1428,
+    "completion_tokens": 78,
+    "evidence": [
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.7045
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6361
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.5839
+      ],
+      [
+        "fixed-11-02",
+        11,
+        1060,
+        2184,
+        0.5707
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1126,
+        0.561
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1364,
+    "completion_tokens": 131,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7262
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.6822
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6793
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        878,
+        0.6789
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.674
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1308,
+    "completion_tokens": 154,
+    "evidence": [
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.8488
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.82
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.8159
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.8092
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.8004
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1149,
+    "completion_tokens": 64,
+    "evidence": [
+      [
+        "fixed-03-03",
+        3,
+        1928,
+        2180,
+        0.8137
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        825,
+        0.7998
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.7951
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.7933
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.779
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1149,
+    "completion_tokens": 72,
+    "evidence": [
+      [
+        "fixed-03-03",
+        3,
+        1928,
+        2180,
+        0.821
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        825,
+        0.8106
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.8102
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.8085
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.7872
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1258,
+    "completion_tokens": 105,
+    "evidence": [
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.8354
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1067,
+        0.8261
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.8104
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1060,
+        0.7895
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.7867
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1256,
+    "completion_tokens": 129,
+    "evidence": [
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.7308
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.7255
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1067,
+        0.7222
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.7126
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.7014
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1559,
+    "completion_tokens": 94,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1060,
+        0.7199
+      ],
+      [
+        "fixed-07-02",
+        7,
+        926,
+        1976,
+        0.7187
+      ],
+      [
+        "fixed-06-03",
+        6,
+        1886,
+        3059,
+        0.6685
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.665
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.6644
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1400,
+    "completion_tokens": 159,
+    "evidence": [
+      [
+        "fixed-07-02",
+        7,
+        926,
+        1976,
+        0.701
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.6758
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1060,
+        0.6621
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1067,
+        0.6619
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.6612
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": false,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1561,
+    "completion_tokens": 185,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        967,
+        0.7898
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1010,
+        0.7688
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        976,
+        0.737
+      ],
+      [
+        "fixed-08-03",
+        8,
+        1477,
+        2626,
+        0.7266
+      ],
+      [
+        "fixed-15-02",
+        15,
+        821,
+        1888,
+        0.7262
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1547,
+    "completion_tokens": 147,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        967,
+        0.7839
+      ],
+      [
+        "fixed-15-02",
+        15,
+        821,
+        1888,
+        0.7686
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        976,
+        0.7547
+      ],
+      [
+        "fixed-02-02",
+        2,
+        825,
+        1958,
+        0.7504
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        873,
+        0.7489
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 981,
+    "completion_tokens": 67,
+    "evidence": [
+      [
+        "fixed-02-03",
+        2,
+        1807,
+        3137,
+        0.84
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        818,
+        0.8372
+      ],
+      [
+        "fixed-02-05",
+        2,
+        4039,
+        4336,
+        0.8191
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        302,
+        0.8099
+      ],
+      [
+        "fixed-14-05",
+        14,
+        3680,
+        4254,
+        0.8064
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1299,
+    "completion_tokens": 130,
+    "evidence": [
+      [
+        "fixed-02-03",
+        2,
+        1807,
+        3137,
+        0.7807
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        818,
+        0.7652
+      ],
+      [
+        "fixed-14-03",
+        14,
+        1787,
+        2906,
+        0.7483
+      ],
+      [
+        "fixed-02-05",
+        2,
+        4039,
+        4336,
+        0.7457
+      ],
+      [
+        "fixed-13-02",
+        13,
+        890,
+        1852,
+        0.7409
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1367,
+    "completion_tokens": 203,
+    "evidence": [
+      [
+        "fixed-21-01",
+        21,
+        0,
+        1098,
+        0.8819
+      ],
+      [
+        "fixed-21-02",
+        21,
+        975,
+        1876,
+        0.8694
+      ],
+      [
+        "fixed-22-02",
+        22,
+        803,
+        1475,
+        0.8663
+      ],
+      [
+        "fixed-24-01",
+        24,
+        0,
+        977,
+        0.8468
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        612,
+        0.8427
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1367,
+    "completion_tokens": 225,
+    "evidence": [
+      [
+        "fixed-21-01",
+        21,
+        0,
+        1098,
+        0.8787
+      ],
+      [
+        "fixed-22-02",
+        22,
+        803,
+        1475,
+        0.8582
+      ],
+      [
+        "fixed-21-02",
+        21,
+        975,
+        1876,
+        0.855
+      ],
+      [
+        "fixed-24-01",
+        24,
+        0,
+        977,
+        0.8448
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        612,
+        0.8381
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1343,
+    "completion_tokens": 132,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        1127,
+        0.8265
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        697,
+        0.8147
+      ],
+      [
+        "fixed-09-02",
+        9,
+        614,
+        829,
+        0.7994
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        1162,
+        0.783
+      ],
+      [
+        "fixed-16-01",
+        16,
+        0,
+        818,
+        0.7713
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1382,
+    "completion_tokens": 81,
+    "evidence": [
+      [
+        "fixed-09-01",
+        9,
+        0,
+        697,
+        0.8129
+      ],
+      [
+        "fixed-15-01",
+        15,
+        0,
+        1127,
+        0.8122
+      ],
+      [
+        "fixed-09-02",
+        9,
+        614,
+        829,
+        0.7849
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        834,
+        0.7615
+      ],
+      [
+        "fixed-12-02",
+        12,
+        800,
+        1944,
+        0.7573
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-a",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1342,
+    "completion_tokens": 108,
+    "evidence": [
+      [
+        "fixed-01-01",
+        1,
+        0,
+        919,
+        0.898
+      ],
+      [
+        "fixed-20-01",
+        20,
+        0,
+        625,
+        0.8867
+      ],
+      [
+        "fixed-03-03",
+        3,
+        1842,
+        2892,
+        0.844
+      ],
+      [
+        "fixed-02-04",
+        2,
+        2927,
+        3956,
+        0.8377
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        1116,
+        0.8329
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-b",
+    "strategy": "fixed",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1525,
+    "completion_tokens": 138,
+    "evidence": [
+      [
+        "fixed-17-02",
+        17,
+        820,
+        1681,
+        0.5912
+      ],
+      [
+        "fixed-15-02",
+        15,
+        962,
+        2019,
+        0.591
+      ],
+      [
+        "fixed-15-03",
+        15,
+        1892,
+        3026,
+        0.5898
+      ],
+      [
+        "fixed-03-02",
+        3,
+        919,
+        2014,
+        0.5839
+      ],
+      [
+        "fixed-15-01",
+        15,
+        0,
+        1102,
+        0.5838
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1153,
+    "completion_tokens": 52,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7666
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.712
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6963
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6844
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6758
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1330,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7519
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.7125
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6995
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6805
+      ],
+      [
+        "fixed-12-02",
+        12,
+        979,
+        1891,
+        0.6785
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1153,
+    "completion_tokens": 56,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.7624
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7567
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.7311
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6888
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6795
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1153,
+    "completion_tokens": 63,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.7673
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.764
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.7332
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.7104
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.696
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1250,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7769
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.726
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.691
+      ],
+      [
+        "fixed-02-02",
+        2,
+        1094,
+        2214,
+        0.6792
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        675,
+        0.6644
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1172,
+    "completion_tokens": 76,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.736
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7098
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6889
+      ],
+      [
+        "fixed-02-02",
+        2,
+        1094,
+        2214,
+        0.6718
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        253,
+        0.6686
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1157,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.6904
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.665
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6324
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.6113
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6102
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1005,
+    "completion_tokens": 70,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.6946
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6702
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.646
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6213
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        253,
+        0.6165
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1300,
+    "completion_tokens": 74,
+    "evidence": [
+      [
+        "fixed-07-03",
+        7,
+        1845,
+        2193,
+        0.658
+      ],
+      [
+        "fixed-07-02",
+        7,
+        947,
+        1927,
+        0.6466
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.6341
+      ],
+      [
+        "fixed-12-02",
+        12,
+        979,
+        1891,
+        0.604
+      ],
+      [
+        "fixed-12-03",
+        12,
+        1726,
+        2372,
+        0.6014
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1234,
+    "completion_tokens": 75,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1122,
+        0.7079
+      ],
+      [
+        "fixed-07-02",
+        7,
+        947,
+        1927,
+        0.6758
+      ],
+      [
+        "fixed-12-02",
+        12,
+        979,
+        1891,
+        0.6606
+      ],
+      [
+        "fixed-07-03",
+        7,
+        1845,
+        2193,
+        0.6549
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6412
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1362,
+    "completion_tokens": 102,
+    "evidence": [
+      [
+        "fixed-01-01",
+        1,
+        0,
+        675,
+        0.8598
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.8363
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1240,
+        0.8254
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1037,
+        0.8162
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        1235,
+        0.8022
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1010,
+    "completion_tokens": 158,
+    "evidence": [
+      [
+        "fixed-13-02",
+        13,
+        1061,
+        1350,
+        0.6595
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.6567
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        1086,
+        0.6369
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        355,
+        0.6283
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6279
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1231,
+    "completion_tokens": 54,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.8568
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.8155
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.8111
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.8102
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.8101
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1231,
+    "completion_tokens": 115,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.8467
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.7932
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.7928
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.7922
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.7915
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1391,
+    "completion_tokens": 83,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7148
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6464
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6458
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.641
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        1046,
+        0.6335
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1385,
+    "completion_tokens": 91,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7068
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6444
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.644
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6432
+      ],
+      [
+        "fixed-02-02",
+        2,
+        917,
+        2041,
+        0.6365
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1377,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7165
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.674
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6721
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6708
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6585
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1374,
+    "completion_tokens": 64,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7195
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6812
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6767
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6747
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.6673
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1379,
+    "completion_tokens": 62,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.6877
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.632
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.619
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6115
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6111
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1379,
+    "completion_tokens": 68,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.6872
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6267
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6177
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6156
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6101
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1365,
+    "completion_tokens": 63,
+    "evidence": [
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.7126
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.639
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.5926
+      ],
+      [
+        "fixed-11-02",
+        11,
+        1060,
+        2184,
+        0.57
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1126,
+        0.5644
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1365,
+    "completion_tokens": 70,
+    "evidence": [
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.7045
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.6361
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.5839
+      ],
+      [
+        "fixed-11-02",
+        11,
+        1060,
+        2184,
+        0.5707
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1126,
+        0.561
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1301,
+    "completion_tokens": 91,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.7262
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.6822
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.6793
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        878,
+        0.6789
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.674
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1245,
+    "completion_tokens": 147,
+    "evidence": [
+      [
+        "fixed-06-01",
+        6,
+        0,
+        428,
+        0.8488
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.82
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.8159
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.8092
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.8004
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1086,
+    "completion_tokens": 59,
+    "evidence": [
+      [
+        "fixed-03-03",
+        3,
+        1928,
+        2180,
+        0.8137
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        825,
+        0.7998
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.7951
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.7933
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.779
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1086,
+    "completion_tokens": 69,
+    "evidence": [
+      [
+        "fixed-03-03",
+        3,
+        1928,
+        2180,
+        0.821
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        825,
+        0.8106
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.8102
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.8085
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.7872
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1195,
+    "completion_tokens": 105,
+    "evidence": [
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.8354
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1067,
+        0.8261
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.8104
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1060,
+        0.7895
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.7867
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1193,
+    "completion_tokens": 115,
+    "evidence": [
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.7308
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        531,
+        0.7255
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1067,
+        0.7222
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.7126
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.7014
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1496,
+    "completion_tokens": 94,
+    "evidence": [
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1060,
+        0.7199
+      ],
+      [
+        "fixed-07-02",
+        7,
+        926,
+        1976,
+        0.7187
+      ],
+      [
+        "fixed-06-03",
+        6,
+        1886,
+        3059,
+        0.6685
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.665
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.6644
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1337,
+    "completion_tokens": 155,
+    "evidence": [
+      [
+        "fixed-07-02",
+        7,
+        926,
+        1976,
+        0.701
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3066,
+        4017,
+        0.6758
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1060,
+        0.6621
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1067,
+        0.6619
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        696,
+        0.6612
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": false,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1498,
+    "completion_tokens": 165,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        967,
+        0.7898
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1010,
+        0.7688
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        976,
+        0.737
+      ],
+      [
+        "fixed-08-03",
+        8,
+        1477,
+        2626,
+        0.7266
+      ],
+      [
+        "fixed-15-02",
+        15,
+        821,
+        1888,
+        0.7262
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1484,
+    "completion_tokens": 157,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        967,
+        0.7839
+      ],
+      [
+        "fixed-15-02",
+        15,
+        821,
+        1888,
+        0.7686
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        976,
+        0.7547
+      ],
+      [
+        "fixed-02-02",
+        2,
+        825,
+        1958,
+        0.7504
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        873,
+        0.7489
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 918,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "fixed-02-03",
+        2,
+        1807,
+        3137,
+        0.84
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        818,
+        0.8372
+      ],
+      [
+        "fixed-02-05",
+        2,
+        4039,
+        4336,
+        0.8191
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        302,
+        0.8099
+      ],
+      [
+        "fixed-14-05",
+        14,
+        3680,
+        4254,
+        0.8064
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1236,
+    "completion_tokens": 101,
+    "evidence": [
+      [
+        "fixed-02-03",
+        2,
+        1807,
+        3137,
+        0.7807
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        818,
+        0.7652
+      ],
+      [
+        "fixed-14-03",
+        14,
+        1787,
+        2906,
+        0.7483
+      ],
+      [
+        "fixed-02-05",
+        2,
+        4039,
+        4336,
+        0.7457
+      ],
+      [
+        "fixed-13-02",
+        13,
+        890,
+        1852,
+        0.7409
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": false,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": true,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1304,
+    "completion_tokens": 255,
+    "evidence": [
+      [
+        "fixed-21-01",
+        21,
+        0,
+        1098,
+        0.8819
+      ],
+      [
+        "fixed-21-02",
+        21,
+        975,
+        1876,
+        0.8694
+      ],
+      [
+        "fixed-22-02",
+        22,
+        803,
+        1475,
+        0.8663
+      ],
+      [
+        "fixed-24-01",
+        24,
+        0,
+        977,
+        0.8468
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        612,
+        0.8427
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1304,
+    "completion_tokens": 179,
+    "evidence": [
+      [
+        "fixed-21-01",
+        21,
+        0,
+        1098,
+        0.8787
+      ],
+      [
+        "fixed-22-02",
+        22,
+        803,
+        1475,
+        0.8582
+      ],
+      [
+        "fixed-21-02",
+        21,
+        975,
+        1876,
+        0.855
+      ],
+      [
+        "fixed-24-01",
+        24,
+        0,
+        977,
+        0.8448
+      ],
+      [
+        "fixed-06-01",
+        6,
+        0,
+        612,
+        0.8381
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1280,
+    "completion_tokens": 102,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        1127,
+        0.8265
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        697,
+        0.8147
+      ],
+      [
+        "fixed-09-02",
+        9,
+        614,
+        829,
+        0.7994
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        1162,
+        0.783
+      ],
+      [
+        "fixed-16-01",
+        16,
+        0,
+        818,
+        0.7713
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1319,
+    "completion_tokens": 81,
+    "evidence": [
+      [
+        "fixed-09-01",
+        9,
+        0,
+        697,
+        0.8129
+      ],
+      [
+        "fixed-15-01",
+        15,
+        0,
+        1127,
+        0.8122
+      ],
+      [
+        "fixed-09-02",
+        9,
+        614,
+        829,
+        0.7849
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        834,
+        0.7615
+      ],
+      [
+        "fixed-12-02",
+        12,
+        800,
+        1944,
+        0.7573
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-a",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1279,
+    "completion_tokens": 106,
+    "evidence": [
+      [
+        "fixed-01-01",
+        1,
+        0,
+        919,
+        0.898
+      ],
+      [
+        "fixed-20-01",
+        20,
+        0,
+        625,
+        0.8867
+      ],
+      [
+        "fixed-03-03",
+        3,
+        1842,
+        2892,
+        0.844
+      ],
+      [
+        "fixed-02-04",
+        2,
+        2927,
+        3956,
+        0.8377
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        1116,
+        0.8329
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-b",
+    "strategy": "fixed",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1462,
+    "completion_tokens": 70,
+    "evidence": [
+      [
+        "fixed-17-02",
+        17,
+        820,
+        1681,
+        0.5912
+      ],
+      [
+        "fixed-15-02",
+        15,
+        962,
+        2019,
+        0.591
+      ],
+      [
+        "fixed-15-03",
+        15,
+        1892,
+        3026,
+        0.5898
+      ],
+      [
+        "fixed-03-02",
+        3,
+        919,
+        2014,
+        0.5839
+      ],
+      [
+        "fixed-15-01",
+        15,
+        0,
+        1102,
+        0.5838
+      ]
+    ]
+  },
+  {
+    "id": "qa-01",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1214,
+    "completion_tokens": 215,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1072,
+        0.733
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        1092,
+        0.7197
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        962,
+        0.6713
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        945,
+        0.6683
+      ],
+      [
+        "fixed-12-02",
+        12,
+        963,
+        1288,
+        0.6649
+      ]
+    ]
+  },
+  {
+    "id": "qa-02",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1283,
+    "completion_tokens": 55,
+    "evidence": [
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1145,
+        0.6471
+      ],
+      [
+        "fixed-06-02",
+        6,
+        1061,
+        1648,
+        0.6173
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1107,
+        0.6064
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        675,
+        0.6022
+      ],
+      [
+        "fixed-02-02",
+        2,
+        1094,
+        2214,
+        0.5974
+      ]
+    ]
+  },
+  {
+    "id": "qa-03",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1250,
+    "completion_tokens": 212,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1174,
+        0.6636
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1063,
+        0.6266
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        537,
+        0.6197
+      ],
+      [
+        "fixed-02-03",
+        2,
+        1865,
+        2997,
+        0.6165
+      ],
+      [
+        "fixed-07-02",
+        7,
+        925,
+        1622,
+        0.6158
+      ]
+    ]
+  },
+  {
+    "id": "qa-04",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1277,
+    "completion_tokens": 169,
+    "evidence": [
+      [
+        "fixed-02-02",
+        2,
+        917,
+        2041,
+        0.6375
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        1046,
+        0.6234
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1120,
+        0.6175
+      ],
+      [
+        "fixed-05-03",
+        5,
+        1939,
+        2304,
+        0.6104
+      ],
+      [
+        "fixed-05-02",
+        5,
+        977,
+        2072,
+        0.5995
+      ]
+    ]
+  },
+  {
+    "id": "qa-05",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1386,
+    "completion_tokens": 50,
+    "evidence": [
+      [
+        "fixed-02-01",
+        2,
+        0,
+        976,
+        0.6912
+      ],
+      [
+        "fixed-15-01",
+        15,
+        0,
+        967,
+        0.6868
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        873,
+        0.6763
+      ],
+      [
+        "fixed-15-02",
+        15,
+        821,
+        1888,
+        0.6558
+      ],
+      [
+        "fixed-08-02",
+        8,
+        793,
+        1628,
+        0.6446
+      ]
+    ]
+  },
+  {
+    "id": "qa-06",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 0.5,
+    "prompt_tokens": 1410,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "fixed-15-01",
+        15,
+        0,
+        967,
+        0.6834
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        976,
+        0.6697
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        873,
+        0.6557
+      ],
+      [
+        "fixed-15-02",
+        15,
+        821,
+        1888,
+        0.6442
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1010,
+        0.6422
+      ]
+    ]
+  },
+  {
+    "id": "qa-07",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1364,
+    "completion_tokens": 156,
+    "evidence": [
+      [
+        "fixed-02-04",
+        2,
+        3027,
+        3891,
+        0.8069
+      ],
+      [
+        "fixed-21-01",
+        21,
+        0,
+        1098,
+        0.7936
+      ],
+      [
+        "fixed-23-01",
+        23,
+        0,
+        1264,
+        0.7865
+      ],
+      [
+        "fixed-21-02",
+        21,
+        975,
+        1876,
+        0.7857
+      ],
+      [
+        "fixed-22-01",
+        22,
+        0,
+        959,
+        0.7806
+      ]
+    ]
+  },
+  {
+    "id": "qa-08",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1043,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1141,
+        0.6154
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        468,
+        0.6126
+      ],
+      [
+        "fixed-06-02",
+        6,
+        964,
+        1101,
+        0.6084
+      ],
+      [
+        "fixed-14-01",
+        14,
+        0,
+        1143,
+        0.5998
+      ],
+      [
+        "fixed-03-02",
+        3,
+        987,
+        1862,
+        0.5918
+      ]
+    ]
+  },
+  {
+    "id": "qa-09",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1092,
+    "completion_tokens": 84,
+    "evidence": [
+      [
+        "fixed-13-01",
+        13,
+        0,
+        465,
+        0.631
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        856,
+        0.59
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        468,
+        0.5589
+      ],
+      [
+        "fixed-14-01",
+        14,
+        0,
+        1143,
+        0.544
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1137,
+        0.5188
+      ]
+    ]
+  },
+  {
+    "id": "qa-10",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1085,
+    "completion_tokens": 257,
+    "evidence": [
+      [
+        "fixed-12-01",
+        12,
+        0,
+        931,
+        0.6269
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1137,
+        0.6221
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        856,
+        0.6148
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        468,
+        0.6116
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        465,
+        0.5918
+      ]
+    ]
+  },
+  {
+    "id": "qa-11",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1226,
+    "completion_tokens": 53,
+    "evidence": [
+      [
+        "fixed-08-05",
+        8,
+        3506,
+        4500,
+        0.5792
+      ],
+      [
+        "fixed-08-04",
+        8,
+        2476,
+        3645,
+        0.5407
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1182,
+        0.5341
+      ],
+      [
+        "fixed-04-02",
+        4,
+        1048,
+        1476,
+        0.5317
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        1205,
+        0.5277
+      ]
+    ]
+  },
+  {
+    "id": "qa-12",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1267,
+    "completion_tokens": 239,
+    "evidence": [
+      [
+        "fixed-02-02",
+        2,
+        877,
+        1668,
+        0.7666
+      ],
+      [
+        "fixed-01-01",
+        1,
+        0,
+        1205,
+        0.7648
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        1100,
+        0.7564
+      ],
+      [
+        "fixed-02-01",
+        2,
+        0,
+        1055,
+        0.7548
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        1160,
+        0.7529
+      ]
+    ]
+  },
+  {
+    "id": "qa-13",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1304,
+    "completion_tokens": 70,
+    "evidence": [
+      [
+        "fixed-02-01",
+        2,
+        0,
+        1109,
+        0.6342
+      ],
+      [
+        "fixed-02-02",
+        2,
+        934,
+        2117,
+        0.5881
+      ],
+      [
+        "fixed-05-03",
+        5,
+        1830,
+        2345,
+        0.5542
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1205,
+        0.5469
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1100,
+        0.5423
+      ]
+    ]
+  },
+  {
+    "id": "qa-14",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1075,
+    "completion_tokens": 218,
+    "evidence": [
+      [
+        "fixed-02-03",
+        2,
+        1949,
+        2481,
+        0.7588
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1205,
+        0.7281
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        293,
+        0.7272
+      ],
+      [
+        "fixed-02-02",
+        2,
+        934,
+        2117,
+        0.7191
+      ],
+      [
+        "fixed-03-01",
+        3,
+        0,
+        984,
+        0.7005
+      ]
+    ]
+  },
+  {
+    "id": "qa-15",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1203,
+    "completion_tokens": 158,
+    "evidence": [
+      [
+        "fixed-02-05",
+        2,
+        4078,
+        5199,
+        0.7699
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1041,
+        0.7529
+      ],
+      [
+        "fixed-07-01",
+        7,
+        0,
+        1315,
+        0.7462
+      ],
+      [
+        "fixed-16-01",
+        16,
+        0,
+        531,
+        0.744
+      ],
+      [
+        "fixed-12-03",
+        12,
+        2193,
+        3325,
+        0.7435
+      ]
+    ]
+  },
+  {
+    "id": "qa-16",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1054,
+    "completion_tokens": 224,
+    "evidence": [
+      [
+        "fixed-09-02",
+        9,
+        918,
+        1350,
+        0.69
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        621,
+        0.6754
+      ],
+      [
+        "fixed-12-02",
+        12,
+        1076,
+        2370,
+        0.6691
+      ],
+      [
+        "fixed-11-02",
+        11,
+        1211,
+        1764,
+        0.6558
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        1063,
+        0.6489
+      ]
+    ]
+  },
+  {
+    "id": "qa-17",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1183,
+    "completion_tokens": 182,
+    "evidence": [
+      [
+        "fixed-09-01",
+        9,
+        0,
+        284,
+        0.8617
+      ],
+      [
+        "fixed-17-01",
+        17,
+        0,
+        1040,
+        0.8126
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1077,
+        0.8109
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3192,
+        4132,
+        0.8049
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1246,
+        0.7957
+      ]
+    ]
+  },
+  {
+    "id": "qa-18",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1373,
+    "completion_tokens": 207,
+    "evidence": [
+      [
+        "fixed-11-01",
+        11,
+        0,
+        1026,
+        0.64
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1082,
+        0.6077
+      ],
+      [
+        "fixed-10-01",
+        10,
+        0,
+        741,
+        0.6055
+      ],
+      [
+        "fixed-12-03",
+        12,
+        1852,
+        2863,
+        0.5931
+      ],
+      [
+        "fixed-03-03",
+        3,
+        1852,
+        2795,
+        0.5884
+      ]
+    ]
+  },
+  {
+    "id": "qa-19",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1343,
+    "completion_tokens": 226,
+    "evidence": [
+      [
+        "fixed-06-01",
+        6,
+        0,
+        974,
+        0.7851
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1144,
+        0.7787
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1139,
+        0.7622
+      ],
+      [
+        "fixed-04-02",
+        4,
+        1019,
+        2043,
+        0.7577
+      ],
+      [
+        "fixed-02-03",
+        2,
+        2027,
+        2856,
+        0.7287
+      ]
+    ]
+  },
+  {
+    "id": "qa-20",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1259,
+    "completion_tokens": 289,
+    "evidence": [
+      [
+        "fixed-06-01",
+        6,
+        0,
+        1166,
+        0.6975
+      ],
+      [
+        "fixed-11-01",
+        11,
+        0,
+        748,
+        0.6605
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1266,
+        0.6404
+      ],
+      [
+        "fixed-12-01",
+        12,
+        0,
+        1144,
+        0.6341
+      ],
+      [
+        "fixed-03-02",
+        3,
+        1115,
+        1911,
+        0.6195
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-01",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 799,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "fixed-10-01",
+        10,
+        0,
+        1105,
+        0.5031
+      ],
+      [
+        "fixed-02-04",
+        2,
+        3081,
+        3356,
+        0.4728
+      ],
+      [
+        "fixed-07-03",
+        7,
+        1845,
+        2193,
+        0.4706
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        421,
+        0.4575
+      ],
+      [
+        "fixed-10-03",
+        10,
+        1907,
+        2163,
+        0.4494
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-02",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1287,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "fixed-08-04",
+        8,
+        2762,
+        2863,
+        0.4779
+      ],
+      [
+        "fixed-08-02",
+        8,
+        1009,
+        2021,
+        0.4769
+      ],
+      [
+        "fixed-03-04",
+        3,
+        2887,
+        3909,
+        0.4735
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        1137,
+        0.4662
+      ],
+      [
+        "fixed-09-01",
+        9,
+        0,
+        1046,
+        0.4586
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-03",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1373,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "fixed-06-02",
+        6,
+        931,
+        2023,
+        0.4959
+      ],
+      [
+        "fixed-06-04",
+        6,
+        2897,
+        3636,
+        0.4914
+      ],
+      [
+        "fixed-05-01",
+        5,
+        0,
+        1060,
+        0.4871
+      ],
+      [
+        "fixed-08-01",
+        8,
+        0,
+        825,
+        0.4817
+      ],
+      [
+        "fixed-04-01",
+        4,
+        0,
+        1169,
+        0.4744
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-04",
+    "strategy": "fixed",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1311,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "fixed-07-03",
+        7,
+        1873,
+        2415,
+        0.535
+      ],
+      [
+        "fixed-13-01",
+        13,
+        0,
+        1010,
+        0.499
+      ],
+      [
+        "fixed-07-04",
+        7,
+        2313,
+        3116,
+        0.4959
+      ],
+      [
+        "fixed-03-02",
+        3,
+        990,
+        2076,
+        0.4949
+      ],
+      [
+        "fixed-07-05",
+        7,
+        3056,
+        3545,
+        0.4926
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1192,
+    "completion_tokens": 67,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7877
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7334
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6963
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6844
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.6769
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1192,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7765
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7325
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6995
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6805
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.68
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1191,
+    "completion_tokens": 62,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7859
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.7624
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7485
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.6807
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6795
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1110,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.794
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.7673
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7559
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.696
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        675,
+        0.6829
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1088,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.8163
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.726
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6899
+      ],
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.6784
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6752
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1017,
+    "completion_tokens": 77,
+    "evidence": [
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.736
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7205
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6918
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6815
+      ],
+      [
+        "section-03-01",
+        3,
+        0,
+        253,
+        0.6686
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1081,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7095
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.665
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6454
+      ],
+      [
+        "section-13-02",
+        13,
+        895,
+        1350,
+        0.6299
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6113
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1063,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7155
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6702
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6561
+      ],
+      [
+        "section-13-02",
+        13,
+        895,
+        1350,
+        0.6309
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6284
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1169,
+    "completion_tokens": 79,
+    "evidence": [
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.6376
+      ],
+      [
+        "section-07-02",
+        7,
+        730,
+        1747,
+        0.6106
+      ],
+      [
+        "section-12-03",
+        12,
+        1575,
+        2372,
+        0.6074
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.6025
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.5876
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1198,
+    "completion_tokens": 79,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.6906
+      ],
+      [
+        "section-07-02",
+        7,
+        730,
+        1747,
+        0.6591
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.6561
+      ],
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.6507
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6412
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1207,
+    "completion_tokens": 100,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        675,
+        0.8598
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.843
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.8212
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.8162
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        893,
+        0.8158
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1137,
+    "completion_tokens": 66,
+    "evidence": [
+      [
+        "section-02-01",
+        2,
+        0,
+        723,
+        0.6392
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6298
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6283
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6268
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.624
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1227,
+    "completion_tokens": 115,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.8619
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.8221
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.8142
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.8111
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.8101
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1227,
+    "completion_tokens": 117,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.8478
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.8131
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.7964
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.7928
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.7915
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1428,
+    "completion_tokens": 107,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7291
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6458
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6433
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.6354
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1335,
+        0.6325
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1428,
+    "completion_tokens": 105,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7196
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.644
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.6396
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6395
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1335,
+        0.6269
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1172,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7194
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6721
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6715
+      ],
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.6532
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6529
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1172,
+    "completion_tokens": 75,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7206
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.696
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6673
+      ],
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.6636
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6586
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1260,
+    "completion_tokens": 69,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6923
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        583,
+        0.6331
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.632
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6229
+      ],
+      [
+        "section-03-02",
+        3,
+        928,
+        2020,
+        0.6098
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1260,
+    "completion_tokens": 68,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6908
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6267
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.625
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        583,
+        0.6211
+      ],
+      [
+        "section-03-02",
+        3,
+        928,
+        2020,
+        0.6128
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1168,
+    "completion_tokens": 68,
+    "evidence": [
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.6836
+      ],
+      [
+        "section-05-03",
+        5,
+        1701,
+        2304,
+        0.6613
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.639
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.585
+      ],
+      [
+        "section-03-05",
+        3,
+        3452,
+        4392,
+        0.5725
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1168,
+    "completion_tokens": 84,
+    "evidence": [
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.676
+      ],
+      [
+        "section-05-03",
+        5,
+        1701,
+        2304,
+        0.6582
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6361
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.5765
+      ],
+      [
+        "section-03-05",
+        3,
+        3452,
+        4392,
+        0.5735
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1274,
+    "completion_tokens": 76,
+    "evidence": [
+      [
+        "section-03-02",
+        3,
+        928,
+        2020,
+        0.7027
+      ],
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6943
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6822
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6811
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.6797
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1198,
+    "completion_tokens": 165,
+    "evidence": [
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.8488
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.8175
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.8159
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.8093
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.8025
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1156,
+    "completion_tokens": 64,
+    "evidence": [
+      [
+        "section-03-02",
+        3,
+        1213,
+        2180,
+        0.8017
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        825,
+        0.7998
+      ],
+      [
+        "section-06-04",
+        6,
+        3286,
+        3636,
+        0.7963
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.7951
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.7933
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1157,
+    "completion_tokens": 87,
+    "evidence": [
+      [
+        "section-08-01",
+        8,
+        0,
+        825,
+        0.8106
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.8102
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.8085
+      ],
+      [
+        "section-06-04",
+        6,
+        3286,
+        3636,
+        0.8028
+      ],
+      [
+        "section-03-02",
+        3,
+        1213,
+        2180,
+        0.8023
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1254,
+    "completion_tokens": 112,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.8354
+      ],
+      [
+        "section-02-05",
+        2,
+        2919,
+        4017,
+        0.8319
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1067,
+        0.8261
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.8104
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        959,
+        0.8026
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1253,
+    "completion_tokens": 186,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.7255
+      ],
+      [
+        "section-02-05",
+        2,
+        2919,
+        4017,
+        0.7249
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1067,
+        0.7222
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.7126
+      ],
+      [
+        "section-07-02",
+        7,
+        1003,
+        1982,
+        0.712
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1502,
+    "completion_tokens": 94,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        1001,
+        0.7215
+      ],
+      [
+        "section-07-02",
+        7,
+        1003,
+        1982,
+        0.6881
+      ],
+      [
+        "section-06-03",
+        6,
+        2067,
+        3284,
+        0.6714
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        959,
+        0.6603
+      ],
+      [
+        "section-04-01",
+        4,
+        0,
+        877,
+        0.6576
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1223,
+    "completion_tokens": 142,
+    "evidence": [
+      [
+        "section-07-02",
+        7,
+        1003,
+        1982,
+        0.6796
+      ],
+      [
+        "section-02-05",
+        2,
+        2919,
+        4017,
+        0.671
+      ],
+      [
+        "section-02-04",
+        2,
+        2581,
+        2917,
+        0.6664
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1067,
+        0.6619
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.6612
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": false,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1173,
+    "completion_tokens": 178,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        641,
+        0.8045
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        773,
+        0.7764
+      ],
+      [
+        "section-15-03",
+        15,
+        1032,
+        1750,
+        0.7678
+      ],
+      [
+        "section-15-02",
+        15,
+        643,
+        1030,
+        0.7369
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        848,
+        0.7345
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1144,
+    "completion_tokens": 173,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        641,
+        0.7908
+      ],
+      [
+        "section-15-03",
+        15,
+        1032,
+        1750,
+        0.7868
+      ],
+      [
+        "section-15-02",
+        15,
+        643,
+        1030,
+        0.7696
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        487,
+        0.757
+      ],
+      [
+        "section-02-02",
+        2,
+        850,
+        1991,
+        0.7473
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1007,
+    "completion_tokens": 63,
+    "evidence": [
+      [
+        "section-02-03",
+        2,
+        1992,
+        2978,
+        0.8582
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        818,
+        0.8372
+      ],
+      [
+        "section-02-05",
+        2,
+        4005,
+        4336,
+        0.8114
+      ],
+      [
+        "section-13-03",
+        13,
+        1389,
+        2255,
+        0.8106
+      ],
+      [
+        "section-04-01",
+        4,
+        0,
+        302,
+        0.8099
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1190,
+    "completion_tokens": 103,
+    "evidence": [
+      [
+        "section-02-03",
+        2,
+        1992,
+        2978,
+        0.7845
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        818,
+        0.7652
+      ],
+      [
+        "section-13-03",
+        13,
+        1389,
+        2255,
+        0.759
+      ],
+      [
+        "section-14-03",
+        14,
+        1943,
+        2978,
+        0.7429
+      ],
+      [
+        "section-02-05",
+        2,
+        4005,
+        4336,
+        0.7424
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": false,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1465,
+    "completion_tokens": 151,
+    "evidence": [
+      [
+        "section-21-02",
+        21,
+        829,
+        1876,
+        0.9043
+      ],
+      [
+        "section-22-02",
+        22,
+        638,
+        1475,
+        0.8702
+      ],
+      [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8644
+      ],
+      [
+        "section-21-01",
+        21,
+        0,
+        827,
+        0.8538
+      ],
+      [
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8468
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1465,
+    "completion_tokens": 209,
+    "evidence": [
+      [
+        "section-21-02",
+        21,
+        829,
+        1876,
+        0.893
+      ],
+      [
+        "section-22-02",
+        22,
+        638,
+        1475,
+        0.8635
+      ],
+      [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8629
+      ],
+      [
+        "section-21-01",
+        21,
+        0,
+        827,
+        0.8512
+      ],
+      [
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8448
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1198,
+    "completion_tokens": 132,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        648,
+        0.8214
+      ],
+      [
+        "section-09-02",
+        9,
+        331,
+        829,
+        0.8055
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        329,
+        0.8024
+      ],
+      [
+        "section-15-02",
+        15,
+        650,
+        1466,
+        0.79
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        1162,
+        0.783
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1178,
+    "completion_tokens": 81,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        648,
+        0.8036
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        329,
+        0.8032
+      ],
+      [
+        "section-09-02",
+        9,
+        331,
+        829,
+        0.7972
+      ],
+      [
+        "section-15-02",
+        15,
+        650,
+        1466,
+        0.7687
+      ],
+      [
+        "section-10-02",
+        10,
+        249,
+        1055,
+        0.7595
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-a",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1007,
+    "completion_tokens": 76,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        919,
+        0.898
+      ],
+      [
+        "section-20-01",
+        20,
+        0,
+        625,
+        0.8867
+      ],
+      [
+        "section-03-04",
+        3,
+        2220,
+        2892,
+        0.841
+      ],
+      [
+        "section-02-04",
+        2,
+        2215,
+        2953,
+        0.8303
+      ],
+      [
+        "section-17-02",
+        17,
+        844,
+        996,
+        0.8001
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-b",
+    "strategy": "section",
+    "task": "checked",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1253,
+    "completion_tokens": 90,
+    "evidence": [
+      [
+        "section-04-01",
+        4,
+        0,
+        601,
+        0.5974
+      ],
+      [
+        "section-15-02",
+        15,
+        980,
+        1714,
+        0.5873
+      ],
+      [
+        "section-15-03",
+        15,
+        1716,
+        2443,
+        0.5864
+      ],
+      [
+        "section-15-01",
+        15,
+        0,
+        978,
+        0.5848
+      ],
+      [
+        "section-17-01",
+        17,
+        0,
+        842,
+        0.5763
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1129,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7877
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7334
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6963
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6844
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.6769
+      ]
+    ]
+  },
+  {
+    "id": "claim-01-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1129,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7765
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7325
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6995
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6805
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.68
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1128,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7859
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.7624
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7485
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.6807
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6795
+      ]
+    ]
+  },
+  {
+    "id": "claim-02-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1047,
+    "completion_tokens": 76,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.794
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.7673
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.7559
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.696
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        675,
+        0.6829
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1025,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.8163
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.726
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6899
+      ],
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.6784
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6752
+      ]
+    ]
+  },
+  {
+    "id": "claim-03-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 954,
+    "completion_tokens": 76,
+    "evidence": [
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.736
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7205
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6918
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6815
+      ],
+      [
+        "section-03-01",
+        3,
+        0,
+        253,
+        0.6686
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1018,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7095
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.665
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6454
+      ],
+      [
+        "section-13-02",
+        13,
+        895,
+        1350,
+        0.6299
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.6113
+      ]
+    ]
+  },
+  {
+    "id": "claim-04-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1000,
+    "completion_tokens": 70,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.7155
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6702
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6561
+      ],
+      [
+        "section-13-02",
+        13,
+        895,
+        1350,
+        0.6309
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6284
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1106,
+    "completion_tokens": 68,
+    "evidence": [
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.6376
+      ],
+      [
+        "section-07-02",
+        7,
+        730,
+        1747,
+        0.6106
+      ],
+      [
+        "section-12-03",
+        12,
+        1575,
+        2372,
+        0.6074
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.6025
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.5876
+      ]
+    ]
+  },
+  {
+    "id": "claim-05-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1135,
+    "completion_tokens": 73,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.6906
+      ],
+      [
+        "section-07-02",
+        7,
+        730,
+        1747,
+        0.6591
+      ],
+      [
+        "section-12-02",
+        12,
+        789,
+        1573,
+        0.6561
+      ],
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.6507
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6412
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1144,
+    "completion_tokens": 154,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        675,
+        0.8598
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.843
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.8212
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.8162
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        893,
+        0.8158
+      ]
+    ]
+  },
+  {
+    "id": "claim-06-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1074,
+    "completion_tokens": 65,
+    "evidence": [
+      [
+        "section-02-01",
+        2,
+        0,
+        723,
+        0.6392
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6298
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        355,
+        0.6283
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6268
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        1037,
+        0.624
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1164,
+    "completion_tokens": 54,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.8619
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.8221
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.8142
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.8111
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.8101
+      ]
+    ]
+  },
+  {
+    "id": "claim-07-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1164,
+    "completion_tokens": 115,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.8478
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.8131
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.7964
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.7928
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.7915
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1365,
+    "completion_tokens": 83,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7291
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6458
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6433
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.6354
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1335,
+        0.6325
+      ]
+    ]
+  },
+  {
+    "id": "claim-08-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1365,
+    "completion_tokens": 91,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7196
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.644
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.6396
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6395
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1335,
+        0.6269
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1109,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7194
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6721
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6715
+      ],
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.6532
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6529
+      ]
+    ]
+  },
+  {
+    "id": "claim-09-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1109,
+    "completion_tokens": 61,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.7206
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.696
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6673
+      ],
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.6636
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6586
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1197,
+    "completion_tokens": 62,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6923
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        583,
+        0.6331
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.632
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6229
+      ],
+      [
+        "section-03-02",
+        3,
+        928,
+        2020,
+        0.6098
+      ]
+    ]
+  },
+  {
+    "id": "claim-10-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1197,
+    "completion_tokens": 69,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6908
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6267
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.625
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        583,
+        0.6211
+      ],
+      [
+        "section-03-02",
+        3,
+        928,
+        2020,
+        0.6128
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1105,
+    "completion_tokens": 62,
+    "evidence": [
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.6836
+      ],
+      [
+        "section-05-03",
+        5,
+        1701,
+        2304,
+        0.6613
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.639
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.585
+      ],
+      [
+        "section-03-05",
+        3,
+        3452,
+        4392,
+        0.5725
+      ]
+    ]
+  },
+  {
+    "id": "claim-11-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1105,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.676
+      ],
+      [
+        "section-05-03",
+        5,
+        1701,
+        2304,
+        0.6582
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.6361
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.5765
+      ],
+      [
+        "section-03-05",
+        3,
+        3452,
+        4392,
+        0.5735
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1211,
+    "completion_tokens": 70,
+    "evidence": [
+      [
+        "section-03-02",
+        3,
+        928,
+        2020,
+        0.7027
+      ],
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6943
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6822
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6811
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.6797
+      ]
+    ]
+  },
+  {
+    "id": "claim-12-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1135,
+    "completion_tokens": 95,
+    "evidence": [
+      [
+        "section-06-01",
+        6,
+        0,
+        428,
+        0.8488
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.8175
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.8159
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.8093
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.8025
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1093,
+    "completion_tokens": 59,
+    "evidence": [
+      [
+        "section-03-02",
+        3,
+        1213,
+        2180,
+        0.8017
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        825,
+        0.7998
+      ],
+      [
+        "section-06-04",
+        6,
+        3286,
+        3636,
+        0.7963
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.7951
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.7933
+      ]
+    ]
+  },
+  {
+    "id": "claim-13-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1094,
+    "completion_tokens": 64,
+    "evidence": [
+      [
+        "section-08-01",
+        8,
+        0,
+        825,
+        0.8106
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.8102
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.8085
+      ],
+      [
+        "section-06-04",
+        6,
+        3286,
+        3636,
+        0.8028
+      ],
+      [
+        "section-03-02",
+        3,
+        1213,
+        2180,
+        0.8023
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1191,
+    "completion_tokens": 102,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.8354
+      ],
+      [
+        "section-02-05",
+        2,
+        2919,
+        4017,
+        0.8319
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1067,
+        0.8261
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.8104
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        959,
+        0.8026
+      ]
+    ]
+  },
+  {
+    "id": "claim-14-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1190,
+    "completion_tokens": 187,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        531,
+        0.7255
+      ],
+      [
+        "section-02-05",
+        2,
+        2919,
+        4017,
+        0.7249
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1067,
+        0.7222
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.7126
+      ],
+      [
+        "section-07-02",
+        7,
+        1003,
+        1982,
+        0.712
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1439,
+    "completion_tokens": 94,
+    "evidence": [
+      [
+        "section-07-01",
+        7,
+        0,
+        1001,
+        0.7215
+      ],
+      [
+        "section-07-02",
+        7,
+        1003,
+        1982,
+        0.6881
+      ],
+      [
+        "section-06-03",
+        6,
+        2067,
+        3284,
+        0.6714
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        959,
+        0.6603
+      ],
+      [
+        "section-04-01",
+        4,
+        0,
+        877,
+        0.6576
+      ]
+    ]
+  },
+  {
+    "id": "claim-15-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1160,
+    "completion_tokens": 119,
+    "evidence": [
+      [
+        "section-07-02",
+        7,
+        1003,
+        1982,
+        0.6796
+      ],
+      [
+        "section-02-05",
+        2,
+        2919,
+        4017,
+        0.671
+      ],
+      [
+        "section-02-04",
+        2,
+        2581,
+        2917,
+        0.6664
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1067,
+        0.6619
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        696,
+        0.6612
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": false,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1110,
+    "completion_tokens": 173,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        641,
+        0.8045
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        773,
+        0.7764
+      ],
+      [
+        "section-15-03",
+        15,
+        1032,
+        1750,
+        0.7678
+      ],
+      [
+        "section-15-02",
+        15,
+        643,
+        1030,
+        0.7369
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        848,
+        0.7345
+      ]
+    ]
+  },
+  {
+    "id": "claim-16-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1081,
+    "completion_tokens": 127,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        641,
+        0.7908
+      ],
+      [
+        "section-15-03",
+        15,
+        1032,
+        1750,
+        0.7868
+      ],
+      [
+        "section-15-02",
+        15,
+        643,
+        1030,
+        0.7696
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        487,
+        0.757
+      ],
+      [
+        "section-02-02",
+        2,
+        850,
+        1991,
+        0.7473
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 944,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "section-02-03",
+        2,
+        1992,
+        2978,
+        0.8582
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        818,
+        0.8372
+      ],
+      [
+        "section-02-05",
+        2,
+        4005,
+        4336,
+        0.8114
+      ],
+      [
+        "section-13-03",
+        13,
+        1389,
+        2255,
+        0.8106
+      ],
+      [
+        "section-04-01",
+        4,
+        0,
+        302,
+        0.8099
+      ]
+    ]
+  },
+  {
+    "id": "claim-17-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1127,
+    "completion_tokens": 132,
+    "evidence": [
+      [
+        "section-02-03",
+        2,
+        1992,
+        2978,
+        0.7845
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        818,
+        0.7652
+      ],
+      [
+        "section-13-03",
+        13,
+        1389,
+        2255,
+        0.759
+      ],
+      [
+        "section-14-03",
+        14,
+        1943,
+        2978,
+        0.7429
+      ],
+      [
+        "section-02-05",
+        2,
+        4005,
+        4336,
+        0.7424
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": false,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": true,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1402,
+    "completion_tokens": 254,
+    "evidence": [
+      [
+        "section-21-02",
+        21,
+        829,
+        1876,
+        0.9043
+      ],
+      [
+        "section-22-02",
+        22,
+        638,
+        1475,
+        0.8702
+      ],
+      [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8644
+      ],
+      [
+        "section-21-01",
+        21,
+        0,
+        827,
+        0.8538
+      ],
+      [
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8468
+      ]
+    ]
+  },
+  {
+    "id": "claim-18-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "CONTRADICTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1402,
+    "completion_tokens": 195,
+    "evidence": [
+      [
+        "section-21-02",
+        21,
+        829,
+        1876,
+        0.893
+      ],
+      [
+        "section-22-02",
+        22,
+        638,
+        1475,
+        0.8635
+      ],
+      [
+        "section-02-04",
+        2,
+        2651,
+        3891,
+        0.8629
+      ],
+      [
+        "section-21-01",
+        21,
+        0,
+        827,
+        0.8512
+      ],
+      [
+        "section-24-01",
+        24,
+        0,
+        977,
+        0.8448
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1135,
+    "completion_tokens": 107,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        648,
+        0.8214
+      ],
+      [
+        "section-09-02",
+        9,
+        331,
+        829,
+        0.8055
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        329,
+        0.8024
+      ],
+      [
+        "section-15-02",
+        15,
+        650,
+        1466,
+        0.79
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        1162,
+        0.783
+      ]
+    ]
+  },
+  {
+    "id": "claim-19-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1115,
+    "completion_tokens": 81,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        648,
+        0.8036
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        329,
+        0.8032
+      ],
+      [
+        "section-09-02",
+        9,
+        331,
+        829,
+        0.7972
+      ],
+      [
+        "section-15-02",
+        15,
+        650,
+        1466,
+        0.7687
+      ],
+      [
+        "section-10-02",
+        10,
+        249,
+        1055,
+        0.7595
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-a",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "SUPPORTED",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 944,
+    "completion_tokens": 99,
+    "evidence": [
+      [
+        "section-01-01",
+        1,
+        0,
+        919,
+        0.898
+      ],
+      [
+        "section-20-01",
+        20,
+        0,
+        625,
+        0.8867
+      ],
+      [
+        "section-03-04",
+        3,
+        2220,
+        2892,
+        0.841
+      ],
+      [
+        "section-02-04",
+        2,
+        2215,
+        2953,
+        0.8303
+      ],
+      [
+        "section-17-02",
+        17,
+        844,
+        996,
+        0.8001
+      ]
+    ]
+  },
+  {
+    "id": "claim-20-b",
+    "strategy": "section",
+    "task": "direct",
+    "correct": true,
+    "error": "",
+    "verdict": "INSUFFICIENT",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1190,
+    "completion_tokens": 14,
+    "evidence": [
+      [
+        "section-04-01",
+        4,
+        0,
+        601,
+        0.5974
+      ],
+      [
+        "section-15-02",
+        15,
+        980,
+        1714,
+        0.5873
+      ],
+      [
+        "section-15-03",
+        15,
+        1716,
+        2443,
+        0.5864
+      ],
+      [
+        "section-15-01",
+        15,
+        0,
+        978,
+        0.5848
+      ],
+      [
+        "section-17-01",
+        17,
+        0,
+        842,
+        0.5763
+      ]
+    ]
+  },
+  {
+    "id": "qa-01",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1107,
+    "completion_tokens": 267,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        979,
+        0.7457
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        868,
+        0.7179
+      ],
+      [
+        "section-02-02",
+        2,
+        685,
+        1327,
+        0.6938
+      ],
+      [
+        "section-12-02",
+        12,
+        870,
+        1288,
+        0.6862
+      ],
+      [
+        "section-13-02",
+        13,
+        328,
+        1281,
+        0.6779
+      ]
+    ]
+  },
+  {
+    "id": "qa-02",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 0.5,
+    "prompt_tokens": 1219,
+    "completion_tokens": 48,
+    "evidence": [
+      [
+        "section-04-02",
+        4,
+        743,
+        1711,
+        0.6507
+      ],
+      [
+        "section-06-02",
+        6,
+        635,
+        1648,
+        0.634
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.6262
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.6133
+      ],
+      [
+        "section-02-03",
+        2,
+        1550,
+        2434,
+        0.6131
+      ]
+    ]
+  },
+  {
+    "id": "qa-03",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1027,
+    "completion_tokens": 189,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        926,
+        0.6705
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        583,
+        0.634
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.6265
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        537,
+        0.6197
+      ],
+      [
+        "section-02-04",
+        2,
+        2670,
+        3303,
+        0.6037
+      ]
+    ]
+  },
+  {
+    "id": "qa-04",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1227,
+    "completion_tokens": 160,
+    "evidence": [
+      [
+        "section-05-01",
+        5,
+        0,
+        816,
+        0.6272
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1335,
+        0.6097
+      ],
+      [
+        "section-02-03",
+        2,
+        1647,
+        2668,
+        0.5955
+      ],
+      [
+        "section-05-03",
+        5,
+        1701,
+        2304,
+        0.5846
+      ],
+      [
+        "section-05-02",
+        5,
+        818,
+        1699,
+        0.584
+      ]
+    ]
+  },
+  {
+    "id": "qa-05",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 977,
+    "completion_tokens": 49,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        641,
+        0.7036
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        848,
+        0.7012
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        487,
+        0.6956
+      ],
+      [
+        "section-15-03",
+        15,
+        1032,
+        1750,
+        0.6843
+      ],
+      [
+        "section-15-02",
+        15,
+        643,
+        1030,
+        0.6681
+      ]
+    ]
+  },
+  {
+    "id": "qa-06",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 0.5,
+    "prompt_tokens": 979,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "section-15-01",
+        15,
+        0,
+        641,
+        0.6937
+      ],
+      [
+        "section-15-02",
+        15,
+        643,
+        1030,
+        0.6788
+      ],
+      [
+        "section-15-03",
+        15,
+        1032,
+        1750,
+        0.6707
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        848,
+        0.67
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        487,
+        0.6613
+      ]
+    ]
+  },
+  {
+    "id": "qa-07",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1145,
+    "completion_tokens": 71,
+    "evidence": [
+      [
+        "section-21-01",
+        21,
+        0,
+        827,
+        0.8013
+      ],
+      [
+        "section-21-02",
+        21,
+        829,
+        1876,
+        0.7913
+      ],
+      [
+        "section-23-01",
+        23,
+        0,
+        684,
+        0.7896
+      ],
+      [
+        "section-22-01",
+        22,
+        0,
+        636,
+        0.7844
+      ],
+      [
+        "section-11-02",
+        11,
+        488,
+        998,
+        0.7722
+      ]
+    ]
+  },
+  {
+    "id": "qa-08",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 887,
+    "completion_tokens": 85,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        576,
+        0.6293
+      ],
+      [
+        "section-14-02",
+        14,
+        1091,
+        1270,
+        0.6172
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        468,
+        0.6126
+      ],
+      [
+        "section-14-01",
+        14,
+        0,
+        1089,
+        0.6036
+      ],
+      [
+        "section-03-03",
+        3,
+        1185,
+        1862,
+        0.5884
+      ]
+    ]
+  },
+  {
+    "id": "qa-09",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 902,
+    "completion_tokens": 80,
+    "evidence": [
+      [
+        "section-13-01",
+        13,
+        0,
+        465,
+        0.631
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        856,
+        0.59
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        468,
+        0.5589
+      ],
+      [
+        "section-14-02",
+        14,
+        1091,
+        1270,
+        0.5583
+      ],
+      [
+        "section-14-01",
+        14,
+        0,
+        1089,
+        0.545
+      ]
+    ]
+  },
+  {
+    "id": "qa-10",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 995,
+    "completion_tokens": 232,
+    "evidence": [
+      [
+        "section-08-01",
+        8,
+        0,
+        560,
+        0.6351
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        931,
+        0.6269
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        856,
+        0.6148
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        468,
+        0.6116
+      ],
+      [
+        "section-03-02",
+        3,
+        578,
+        1183,
+        0.6056
+      ]
+    ]
+  },
+  {
+    "id": "qa-11",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1048,
+    "completion_tokens": 53,
+    "evidence": [
+      [
+        "section-08-05",
+        8,
+        3084,
+        4245,
+        0.5951
+      ],
+      [
+        "section-07-06",
+        7,
+        4426,
+        4946,
+        0.5503
+      ],
+      [
+        "section-08-04",
+        8,
+        2199,
+        3082,
+        0.5348
+      ],
+      [
+        "section-04-02",
+        4,
+        1070,
+        1476,
+        0.5324
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        1205,
+        0.5277
+      ]
+    ]
+  },
+  {
+    "id": "qa-12",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1133,
+    "completion_tokens": 220,
+    "evidence": [
+      [
+        "section-03-01",
+        3,
+        0,
+        584,
+        0.7799
+      ],
+      [
+        "section-02-02",
+        2,
+        925,
+        1668,
+        0.7724
+      ],
+      [
+        "section-01-01",
+        1,
+        0,
+        1205,
+        0.7648
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1160,
+        0.7529
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        923,
+        0.7497
+      ]
+    ]
+  },
+  {
+    "id": "qa-13",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1204,
+    "completion_tokens": 57,
+    "evidence": [
+      [
+        "section-02-01",
+        2,
+        0,
+        942,
+        0.6404
+      ],
+      [
+        "section-07-03",
+        7,
+        1190,
+        2095,
+        0.5688
+      ],
+      [
+        "section-07-02",
+        7,
+        263,
+        1188,
+        0.558
+      ],
+      [
+        "section-02-02",
+        2,
+        944,
+        2105,
+        0.5518
+      ],
+      [
+        "section-05-03",
+        5,
+        1853,
+        2345,
+        0.5512
+      ]
+    ]
+  },
+  {
+    "id": "qa-14",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 898,
+    "completion_tokens": 334,
+    "evidence": [
+      [
+        "section-02-03",
+        2,
+        2107,
+        2481,
+        0.7547
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        293,
+        0.7272
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        799,
+        0.7242
+      ],
+      [
+        "section-04-02",
+        4,
+        956,
+        1838,
+        0.7146
+      ],
+      [
+        "section-05-02",
+        5,
+        987,
+        1851,
+        0.7095
+      ]
+    ]
+  },
+  {
+    "id": "qa-15",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 0.5,
+    "prompt_tokens": 929,
+    "completion_tokens": 152,
+    "evidence": [
+      [
+        "section-02-01",
+        2,
+        0,
+        432,
+        0.7725
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        623,
+        0.7639
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        1088,
+        0.7579
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        813,
+        0.7566
+      ],
+      [
+        "section-12-03",
+        12,
+        1586,
+        2216,
+        0.7538
+      ]
+    ]
+  },
+  {
+    "id": "qa-16",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1002,
+    "completion_tokens": 231,
+    "evidence": [
+      [
+        "section-09-02",
+        9,
+        1047,
+        1350,
+        0.6983
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        621,
+        0.6754
+      ],
+      [
+        "section-12-02",
+        12,
+        465,
+        1584,
+        0.6589
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1045,
+        0.6488
+      ],
+      [
+        "section-11-02",
+        11,
+        1090,
+        1764,
+        0.6449
+      ]
+    ]
+  },
+  {
+    "id": "qa-17",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1173,
+    "completion_tokens": 226,
+    "evidence": [
+      [
+        "section-09-01",
+        9,
+        0,
+        284,
+        0.8617
+      ],
+      [
+        "section-02-04",
+        2,
+        2941,
+        4132,
+        0.8286
+      ],
+      [
+        "section-17-01",
+        17,
+        0,
+        1040,
+        0.8126
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        1120,
+        0.809
+      ],
+      [
+        "section-04-02",
+        4,
+        979,
+        1801,
+        0.7942
+      ]
+    ]
+  },
+  {
+    "id": "qa-18",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1114,
+    "completion_tokens": 206,
+    "evidence": [
+      [
+        "section-11-01",
+        11,
+        0,
+        722,
+        0.6757
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        884,
+        0.6208
+      ],
+      [
+        "section-10-01",
+        10,
+        0,
+        741,
+        0.6055
+      ],
+      [
+        "section-03-03",
+        3,
+        1298,
+        2226,
+        0.5929
+      ],
+      [
+        "section-15-05",
+        15,
+        3443,
+        3887,
+        0.5889
+      ]
+    ]
+  },
+  {
+    "id": "qa-19",
+    "strategy": "section",
+    "task": "qa",
+    "correct": false,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": false,
+    "recall": 0.0,
+    "prompt_tokens": 1190,
+    "completion_tokens": 231,
+    "evidence": [
+      [
+        "section-06-01",
+        6,
+        0,
+        974,
+        0.7851
+      ],
+      [
+        "section-04-01",
+        4,
+        0,
+        637,
+        0.7763
+      ],
+      [
+        "section-13-01",
+        13,
+        0,
+        1139,
+        0.7622
+      ],
+      [
+        "section-04-02",
+        4,
+        639,
+        1474,
+        0.7504
+      ],
+      [
+        "section-04-03",
+        4,
+        1476,
+        2273,
+        0.7494
+      ]
+    ]
+  },
+  {
+    "id": "qa-20",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": true,
+    "recall": 1.0,
+    "prompt_tokens": 1292,
+    "completion_tokens": 280,
+    "evidence": [
+      [
+        "section-06-01",
+        6,
+        0,
+        1166,
+        0.6975
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        748,
+        0.6605
+      ],
+      [
+        "section-12-01",
+        12,
+        0,
+        1056,
+        0.6576
+      ],
+      [
+        "section-05-01",
+        5,
+        0,
+        1344,
+        0.6354
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        921,
+        0.6085
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-01",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 825,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "section-10-01",
+        10,
+        0,
+        266,
+        0.4878
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        633,
+        0.4728
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        421,
+        0.4575
+      ],
+      [
+        "section-07-03",
+        7,
+        1749,
+        2193,
+        0.4559
+      ],
+      [
+        "section-07-01",
+        7,
+        0,
+        728,
+        0.4549
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-02",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1333,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "section-03-05",
+        3,
+        3452,
+        4392,
+        0.4843
+      ],
+      [
+        "section-08-02",
+        8,
+        728,
+        1715,
+        0.4824
+      ],
+      [
+        "section-03-04",
+        3,
+        2967,
+        3450,
+        0.467
+      ],
+      [
+        "section-09-01",
+        9,
+        0,
+        1335,
+        0.4557
+      ],
+      [
+        "section-04-02",
+        4,
+        552,
+        1660,
+        0.4507
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-03",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1260,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "section-05-01",
+        5,
+        0,
+        959,
+        0.4936
+      ],
+      [
+        "section-06-02",
+        6,
+        1043,
+        2065,
+        0.4832
+      ],
+      [
+        "section-08-01",
+        8,
+        0,
+        825,
+        0.4817
+      ],
+      [
+        "section-06-04",
+        6,
+        3286,
+        3636,
+        0.48
+      ],
+      [
+        "section-06-01",
+        6,
+        0,
+        1041,
+        0.4687
+      ]
+    ]
+  },
+  {
+    "id": "unanswerable-04",
+    "strategy": "section",
+    "task": "qa",
+    "correct": true,
+    "error": "",
+    "verdict": "",
+    "citation_error": false,
+    "hit": null,
+    "recall": null,
+    "prompt_tokens": 1163,
+    "completion_tokens": 5,
+    "evidence": [
+      [
+        "section-13-01",
+        13,
+        0,
+        773,
+        0.5039
+      ],
+      [
+        "section-07-04",
+        7,
+        2232,
+        2865,
+        0.4917
+      ],
+      [
+        "section-02-01",
+        2,
+        0,
+        848,
+        0.4906
+      ],
+      [
+        "section-03-02",
+        3,
+        1004,
+        1861,
+        0.4905
+      ],
+      [
+        "section-11-01",
+        11,
+        0,
+        397,
+        0.4891
+      ]
+    ]
+  }
+]

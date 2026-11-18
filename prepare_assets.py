@@ -21,6 +21,10 @@ MODELS = [
         "config.json", "model.safetensors", "special_tokens_map.json",
         "tokenizer_config.json", "vocab.txt",
     ]),
+    ("cross-encoder/ms-marco-MiniLM-L6-v2", "233902d25c440f23af6f7d6e94d2946bac0bee0a", [
+        "config.json", "model.safetensors", "special_tokens_map.json",
+        "tokenizer.json", "tokenizer_config.json", "vocab.txt",
+    ]),
 ]
 
 

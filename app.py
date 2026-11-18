@@ -3,7 +3,9 @@ import os
 
 import streamlit as st
 
-from paperscope import DEEPSEEK_MODEL, ROOT, PaperScope, STRATEGIES, answer_with_api
+from paperscope import (
+    DEEPSEEK_MODEL, RERANK_ON, ROOT, PaperScope, STRATEGIES, answer_with_api,
+)
 
 
 st.set_page_config(page_title="PaperScope", layout="wide")
@@ -71,6 +73,10 @@ except Exception as error:
 
 st.sidebar.header("Search settings")
 strategy = st.sidebar.radio("Chunking", list(STRATEGIES), index=1, format_func=STRATEGIES.get)
+rerank = st.sidebar.checkbox(
+    "Rerank top 20 candidates", value=RERANK_ON,
+    help="Reorder vector hits with a local cross-encoder before showing five passages.",
+)
 api_enabled = bool(os.getenv("PAPERSCOPE_API_KEY"))
 checking = page == "Check a statement"
 modes = ["DeepSeek API", "Local extractive QA"] if api_enabled else ["Local extractive QA"]
@@ -99,7 +105,7 @@ with st.form("statement_form" if checking else "question_form"):
         "Check evidence" if checking else "Find an answer", type="primary"
     )
 
-settings = (paper_id, strategy, mode, page)
+settings = (paper_id, strategy, rerank, mode, page)
 if submitted:
     st.session_state.pop("result", None)
     if not question.strip():
@@ -107,7 +113,9 @@ if submitted:
     else:
         with st.spinner("Searching the paper…"):
             try:
-                evidence = scope.retrieve(paper_id, question.strip(), strategy)
+                evidence = scope.retrieve(
+                    paper_id, question.strip(), strategy, rerank=rerank
+                )
                 if mode == "DeepSeek API":
                     answer = answer_with_api(
                         question.strip(), evidence, "checked" if checking else "qa"
@@ -156,5 +164,8 @@ if result and result[0] == settings:
         if used:
             label += " · Cited"
         with right.expander(label, expanded=used):
-            st.caption(f"{paper_id} · Cosine similarity {item['similarity']:.3f}")
+            scores = f"Cosine similarity {item['similarity']:.3f}"
+            if "rerank_score" in item:
+                scores += f" · rerank {item['rerank_score']:.3f}"
+            st.caption(f"{paper_id} · {scores}")
             st.text(item["text"])

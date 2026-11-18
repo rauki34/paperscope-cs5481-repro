@@ -30,12 +30,11 @@ Run `python run_deepseek.py --evaluate` with an API key to reproduce the benchma
 
 | Measure | Fixed size | Paragraph aware |
 | --- | ---: | ---: |
-| Evidence Hit@5 on 20 answerable questions | 14/20 | 16/20 |
-| Strict answer-span match on 20 questions | 6/20 | 9/20 |
-| Evidence-based review of the same 20 answers | 15/20 | 17/20 |
+| Evidence Hit@5 on 20 answerable questions | 17/20 | 18/20 |
+| Strict answer-span match on 20 questions | 9/20 | 9/20 |
 | Correct refusal on four out-of-scope questions | 4/4 | 4/4 |
 
-The direct and condition-by-condition statement checks score 38/40 and 39/40 under fixed-size chunking, and 38/40 for both prompts under paragraph-aware chunking. See the report for examples and scoring limitations.
+The direct and condition-by-condition statement checks score 39/40 and 40/40 under fixed-size chunking, and 36/40 and 39/40 under paragraph-aware chunking. Retrieval reranks 20 vector candidates with a cross-encoder before keeping five; the sidebar toggle compares against plain vector search, and the benchmark runs with reranking on. See the report for examples and scoring limitations.
 
 A clean-machine reproduction on 18 November 2026 matched 207 of 208 per-case judgements and reproduced the published token totals exactly; one borderline claim case flips. Setup, timings, cost and the deviation analysis are in [REPRODUCTION.md](REPRODUCTION.md). The archived submission results are kept unchanged in `results/published-run/`, and `results/rerun-outcomes.json` records the current run case by case. Known defects and evaluation gaps are tracked in [ISSUES.md](ISSUES.md); ISS-001 (stub chunks in paragraph-aware chunking) is fixed and the benchmark was rerun after the change.
 
@@ -52,4 +51,4 @@ Anyone with the link can view, clone or fork this public repository. For changes
 
 QASPER by Dasigi et al. (2021) supplies the papers and QA annotations. The case set selects annotated spans and adds normalized offsets. The [QASPER dataset card](https://huggingface.co/datasets/allenai/qasper) lists CC BY 4.0 and links to the [original paper](https://aclanthology.org/2021.naacl-main.365/).
 
-The setup script retrieves pinned [BGE-small](https://huggingface.co/BAAI/bge-small-en-v1.5) and [MiniLM QA](https://huggingface.co/deepset/minilm-uncased-squad2) model revisions. [DeepSeek](https://api-docs.deepseek.com/) handles generation.
+The setup script retrieves pinned [BGE-small](https://huggingface.co/BAAI/bge-small-en-v1.5), [MiniLM QA](https://huggingface.co/deepset/minilm-uncased-squad2) and [MiniLM cross-encoder](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2) model revisions. [DeepSeek](https://api-docs.deepseek.com/) handles generation.
