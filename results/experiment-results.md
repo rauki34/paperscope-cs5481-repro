@@ -22,7 +22,37 @@ Both chunkings use the same 20 answerable questions and 4 out-of-scope questions
 
 Hit@5 counts a hit when the union of the top-5 chunks covers at least half of an annotated paragraph. Reranking moved fixed-size chunking from 14/20 to 17/20 and paragraph-aware chunking from 16/20 to 18/20, while Top-1 hits rose from 7/20 to 12/20 and 11/20. The out-of-scope questions differ obviously from the paper content, so 4/4 only shows that these samples can be refused.
 
-Strict span matching requires the annotated answer span to appear verbatim in the generated answer, so it understates accuracy: `qa-01` answers "pivoting and pivot-synthetic" correctly and still scores zero. The per-question semantic review in the previous revision covered the pre-rerank run (15/20 and 17/20) and was not repeated here, because the retrieved passages changed. This revision therefore reports strict scores only; the review table remains in `published-run/experiment-results-zh.md` and in the previous commit.
+Strict span matching requires the annotated answer span to appear verbatim in the generated answer, so it understates accuracy: `qa-01` answers "pivoting and pivot-synthetic" correctly and still scores zero.
+
+### Per-question semantic review
+
+Every answer was re-read against its question, its reference span and the citation it produced. A paraphrase counts as correct when it covers the fact the question asks for and the citation supports it; a refusal on an answerable question, a missing half of a two-part question, or an answer about a different quantity counts as wrong. The review covers the answers of this run, so it replaces the table that shipped with the previous revision.
+
+| Case | Fixed | Paragraph aware | Basis |
+| --- | --- | --- | --- |
+| qa-01 | correct | correct | Both list pivoting and pivot-synthetic with their definitions. |
+| qa-02 | correct | correct | Both answer `ilur.am`. |
+| qa-03 | correct | correct | Both give the four subreddits and the frontpage. |
+| qa-04 | wrong | wrong | Neither names logistic regression; fixed mentions a linear regression on behavioural features, paragraph aware stays generic. |
+| qa-05 | correct | correct | Both expand KBQA. |
+| qa-06 | correct | correct | Both name relation detection. |
+| qa-07 | correct | correct | Both name the first principal component at the given layer. |
+| qa-08 | correct | correct | Both measure compactness by model size in megabytes; fixed adds 15.4 MB against 197.5 MB. |
+| qa-09 | wrong | wrong | Both refuse, but the paper does report a baseline, so the refusal is unjustified. |
+| qa-10 | correct | correct | Both identify the multilingual pronunciation corpus collected by deri2016grapheme. |
+| qa-11 | correct | correct | Both give 20 reviewers recruited from the authors' institutions. |
+| qa-12 | correct | correct | Both answer PG-net, pointer networks with a coverage mechanism. |
+| qa-13 | correct | correct | Both give 30,000 images with five descriptions each. |
+| qa-14 | correct | correct | Both name linguistic bias and unwarranted inferences and give examples. |
+| qa-15 | wrong | correct | Fixed names only the relations it handles best; paragraph aware answers explicit best and implicit worst, which is what was asked. |
+| qa-16 | correct | correct | Both give the 1 percent gain over the best previous system. |
+| qa-17 | correct | correct | Both explain that the generator scores candidate answers by semantic relevance. |
+| qa-18 | correct | correct | Both name QA PGNet and Multi-decoder QA PGNet. |
+| qa-19 | correct | correct | Both answer that the transformer layer wins, with the CSAT caveat. |
+| qa-20 | correct | correct | Both answer CrowdFlower with the chat-style collection. |
+| Four out-of-scope questions | 4/4 | 4/4 | Both refuse when evidence is missing. |
+
+On answerable questions the review gives fixed-size chunking **17/20 (85%)** and paragraph-aware chunking **18/20 (90%)**. Including the refusal questions the totals are **21/24 (87.5%)** and **22/24 (91.7%)**. Strict matching scores 9/20 for both, so the strict metric discards eight to nine answers that a reader would accept, almost all of them correct paraphrases.
 
 ## Claim verification
 

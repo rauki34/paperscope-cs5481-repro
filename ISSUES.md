@@ -14,7 +14,7 @@ Last updated: 19 November 2026.
 | ISS-014 | Faithfulness | Numeric alignment does not test semantic entailment | A quote can carry the right number and still describe a different quantity; `claim-18-a` remains unsolved | medium | OPEN |
 | ISS-004 | Evaluation | Chunking comparison is underpowered and confounded | Both strategies cap at 240 tokens and split at section boundaries; n=20 with no confidence interval | medium | OPEN |
 | ISS-005 | Evaluation | Refusal questions are out of domain | Liquid nitrogen boiling point, Neptune orbit, tungsten melting point, proton mass; 4/4 is trivially achieved | medium | OPEN |
-| ISS-006 | Evaluation | Strict span matching penalises correct paraphrases | 45% strict while inspection of the same answers finds far more correct; `qa-01` answers correctly and is scored wrong | medium | OPEN |
+| ISS-006 | Evaluation | Strict span matching penalises correct paraphrases | 9/20 strict against 17/20 and 18/20 in the semantic review of the same answers; `qa-01` answers correctly and is scored wrong | medium | OPEN |
 | ISS-007 | Evaluation | Claim set is small, anchor-derived and does not discriminate prompts | 40 statements from 6 papers, all built from exact source anchors; Checked shows no consistent gain | medium | OPEN |
 | ISS-008 | Retrieval scope | Search is restricted to the paper the user selects | "Cite the source document" is satisfied by construction, never tested | low | OPEN |
 | ISS-009 | Storage | The vector store is in memory and rebuilt on every start | 63 s cold start; no persistent database file | low | OPEN |
@@ -75,3 +75,4 @@ The reranker is exposed as a sidebar checkbox, is on by default, and its score i
 | 2026-11-18 | ISS-002 fixed with numeric alignment; ISS-014 opened for entailment |
 | 2026-11-18 | ISS-003 fixed with cross-encoder reranking; evaluation rerun `69d0a79c60f02ed7` |
 | 2026-11-19 | Corrected the attribution of the paragraph-aware claim regression: `claim-16-b` and `claim-17-b` flip to CONTRADICTED, while the blocked `claim-18-a` was already wrong |
+| 2026-11-19 | Redid the per-question semantic review on the current answers: 17/20 and 18/20, replacing the pre-rerank table |

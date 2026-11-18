@@ -35,9 +35,10 @@ Run `python run_deepseek.py --evaluate` with an API key to reproduce the benchma
 | Evidence Hit@5 on 20 answerable questions | 17/20 | 18/20 |
 | Evidence Hit@1 on the same 20 questions | 12/20 | 11/20 |
 | Strict answer-span match on 20 questions | 9/20 | 9/20 |
+| Evidence-based review of the same 20 answers | 17/20 | 18/20 |
 | Correct refusal on four out-of-scope questions | 4/4 | 4/4 |
 
-The direct and condition-by-condition statement checks score 39/40 and 40/40 under fixed-size chunking, and 36/40 and 39/40 under paragraph-aware chunking. No configuration accepts a non-supported statement. Retrieval reranks 20 vector candidates with a cross-encoder before keeping five, which costs about 0.4 s per case. Strict span matching understates accuracy because it rejects correct paraphrases; see the report for examples and scoring limitations.
+The direct and condition-by-condition statement checks score 39/40 and 40/40 under fixed-size chunking, and 36/40 and 39/40 under paragraph-aware chunking. No configuration accepts a non-supported statement. Retrieval reranks 20 vector candidates with a cross-encoder before keeping five, which costs about 0.4 s per case. Strict span matching understates accuracy because it rejects correct paraphrases: the semantic review of the same answers scores 17/20 and 18/20, and the strict score discards eight to nine answers a reader would accept. See the report for the per-question table and scoring limitations.
 
 ## Changes from the original submission
 
